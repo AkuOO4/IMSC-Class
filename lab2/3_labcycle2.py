@@ -51,6 +51,6 @@ for j in range (len(species_list)):
   petal_ar=[]
 
 #sort
-sortedList = (sorted(sorted_list, key = lambda i:i['total_area'] ))
+sortedList = (sorted(dct, key = lambda i:i['total_area'] ))
 for i in sortedList:
   print(i)
