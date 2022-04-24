@@ -1,8 +1,8 @@
-
 from time import time
-
 import pygame as py
+
 py.font.init()
+
 #pygame constants
 WIDTH,HEIGHT=753,753  #each indivdual box should be 250x250
 TEXT_CENTER=(380,300)
@@ -73,13 +73,9 @@ def draw_all_boxes():
                     py.draw.circle(WIN,BLACK,[x+125,y+125],RADIUS,BORDER_THICKNESS+10)
             ct1+=1
     win_draw_popup(win_check())         
-    print(values)
-                    
-                    
-    
+    print(values)                          
     py.display.update()
             
-
 def moving_rect(keys_pressed):
     #global border_rect
     #mini_box(BOX_COLOR1,border_rect.x,border_rect.y)
@@ -118,39 +114,34 @@ def moving_rect(keys_pressed):
     py.display.update()
 
 def player_1_moves(x,y):
-
-
    global a1,a2,a3,b1,b2,b3,c1,c2,c3,values
    if ((x==0) and (y==0)) and (a1["STATUS"]==-1):
-       #WIN.blit(X,(0,0))
+       
        a1["STATUS"]=1
    if ((x==0) and (y==250)) and (a2["STATUS"]==-1):       
         a2["STATUS"]=1
-        #WIN.blit(X,(0,250))
+       
    if ((x==0) and (y ==500)) and (a3["STATUS"]==-1):
         a3["STATUS"]=1
-        #WIN.blit(X,(0,500))
+       
    if ((x==250) and (y==0)) and (b1["STATUS"]==-1):
         b1["STATUS"]=1
-        #WIN.blit(X,(250,0))
+       
    if ((x ==250) and (y ==250)) and (b2["STATUS"]==-1):
         b2["STATUS"]=1
-        #WIN.blit(X,(250,250))
+        
    if ((x ==250) and (y==500)) and (b3["STATUS"]==-1):
         b3["STATUS"]=1
-        #WIN.blit(X,(250,500))
+       
    if ((x==500) and (y ==0)) and (c1["STATUS"]==-1):
         c1["STATUS"]=1
-        #WIN.blit(X,(500,0))
+        
    if ((x==500) and (y==250)) and (c2["STATUS"]==-1):
         c2["STATUS"]=1
-        #WIN.blit(X,(500,250))
+
    if ((x==500) and (y==500)) and (c3["STATUS"]==-1):
         c3["STATUS"]=1
-        #WIN.blit(X,(500,500))
    values=[a1,a2,a3,b1,b2,b3,c1,c2,c3]
-#    py.draw.line(WIN,BLACK,[x,y],[x+45,y+50],BORDER_THICKNESS)
-#    py.draw.line(WIN,BLACK,[x+50,y],[x,y+50],BORDER_THICKNESS)
    py.display.update()
    
     
@@ -224,21 +215,7 @@ def win_draw_popup(a):
             textRect1.center = TEXT_CENTER
             WIN.blit(text1,textRect1)
             py.time.delay(500000)
-        #text2 = font2.render('CLICK HERE TO REFRESH',  1, RED)
 
-    
-        # create a rectangular object for the
-        # text surface object
-
-        #textRect2 = text2.get_rect()
-    
-    # setting center for the first text
-
-    
-    # setting center for the second text
-        #textRect2.center = (250, 400)
-
-        #WIN.blit(text2,textRect2)
         WIN.blit(REFRESH_IMG,(350,380))
         if py.MOUSEBUTTONDOWN:
             pos=py.mouse.get_pos()
