@@ -54,7 +54,7 @@ lst=list(unify)
 print(lst)
 
 # Points of f(x)=x^2-x
-n=int(input("input enter the element to p"))
+n=int(input("enter the element to put "))
 y=[]
 for x in range(n+1):
   y.append(x**2-x)
