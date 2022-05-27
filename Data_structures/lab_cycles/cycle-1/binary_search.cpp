@@ -3,7 +3,7 @@ using namespace std;
 
 int binary_search(int arr[],int start,int stop,int ele)
 {
-    int middle=stop/2;
+    int middle=start+(stop-start)/2;
     do
     {
         if (arr[middle]==ele)
@@ -27,5 +27,5 @@ int main()
         cout<<"element not found ";
     else
         cout<<"element searched = "<<element<<endl
-            <<"it's location is , "<<loc<<endl;
+            <<"it's location is "<<loc<<endl;
 }
