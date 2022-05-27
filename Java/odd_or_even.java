@@ -1,6 +1,6 @@
 import java.util.*;  
 
-public class Main
+public class odd_or_even
 {
 	public static void main(String[] args)
 	{
