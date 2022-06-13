@@ -1,6 +1,6 @@
 import java.util.*;  
 
-public class Main
+public class sum_of_2_numbers_user_input
 {
 	public static void main(String[] args)
 	{
