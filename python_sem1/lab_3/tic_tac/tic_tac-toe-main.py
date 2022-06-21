@@ -8,14 +8,14 @@ WIDTH,HEIGHT=753,753  #each indivdual box should be 250x250
 TEXT_CENTER=(380,300)
 BLACK=(0,0,0)
 WHITE=(255,255,255)
-BLUE=(22,14,99)
-NAVY_BLUE=(32,42,68)
-RED=(254,39,18)
+BLUE=(69, 123, 157)
+NAVY_BLUE=(29, 53, 87)
+RED=(230, 57, 70)
 COLOR1=(150,200,200)
 
 FPS=60
-BOX_COLOR1=(0,128,128)
-BOX_COLOR2=(0,179,179)
+BOX_COLOR1=(168, 218, 220)
+BOX_COLOR2=(241, 250, 238)
 
 BORDER_THICKNESS=5
 border_rect_1=py.Rect(250, 250, 250, 250)
@@ -180,20 +180,23 @@ def player_2_moves(x,y):
    py.display.update()
 
 def win_check(): #return 1 if X wins, 0 if O wins, 2 if draw, -1 if nothing happens
-    global win_lose
+    win_lose=-1
     #checking if player1 wins by looking all the possibilities of winning(k)
     if (a1['STATUS']==1 and a2['STATUS']==1 and a3['STATUS']==1)  or  (b1['STATUS']==1 and b2["STATUS"]==1 and b3["STATUS"]==1) or (c1['STATUS']==1 and c2['STATUS']==1 and c3["STATUS"]==1) or (a1['STATUS']==1 and b1['STATUS']==1 and c1['STATUS']==1) or (a2['STATUS']==1 and b2["STATUS"]==1 and c2['STATUS']==1) or (a3['STATUS']==1 and c3['STATUS']==1 and b3==1) or (a1['STATUS']==1 and b2["STATUS"]==1 and c3['STATUS']==1) or (a3['STATUS']==1 and b2["STATUS"]==1 and c1['STATUS']==1):
         print("palyer 1 won")
         win_lose=1
         print()
-        return win_lose
+        
     elif (a1['STATUS']==0 and a2['STATUS']==0 and a3['STATUS']==0) or (b1['STATUS']==0 and b2["STATUS"]==0 and b3['STATUS']==0) or (c1['STATUS']==0 and c2['STATUS']==0 and c3['STATUS']==0) or (a1['STATUS']==0 and b1['STATUS']==0 and c1['STATUS']==0) or (a2['STATUS']==0 and b2["STATUS"]==0 and c2['STATUS']==0) or (a3['STATUS']==0 and c3['STATUS']==0 and b3["STATUS"]==0) or (a1['STATUS']==0 and b2["STATUS"]==0 and c3['STATUS']==0) or (a3['STATUS']==0 and b2["STATUS"]==0 and c1['STATUS']==0):
         print ("player 2 won")
         win_lose=0
         print()
-        return win_lose   
+          
     elif a1['STATUS']!=-1 and a2['STATUS']!=-1 and a3['STATUS']!=-1 and b1['STATUS']!=-1 and b2['STATUS']!=-1 and b2['STATUS']!=-1 and b3['STATUS']!=-1 and c1['STATUS']!=-1 and c2['STATUS']!=-1 and c3['STATUS']!=-1: 
-        return 2
+        win_lose=2
+        
+    win_draw_popup(win_lose)
+    return win_lose
 def win_draw_popup(a):
 
     if a==0 or a==1 or a==2:
@@ -214,12 +217,13 @@ def win_draw_popup(a):
             textRect1 = text1.get_rect()
             textRect1.center = TEXT_CENTER
             WIN.blit(text1,textRect1)
-            py.time.delay(500000)
+            
 
-        WIN.blit(REFRESH_IMG,(350,380))
+        #WIN.blit(REFRESH_IMG,(350,380))
         if py.MOUSEBUTTONDOWN:
             pos=py.mouse.get_pos()
-            if POP_UP_RECT.x<= pos[0] <=POP_UP_RECT.x+POP_UP_RECT.width and POP_UP_RECT.y<=pos[1]<=POP_UP_RECT.y+POP_UP_RECT.height:
+            if (POP_UP_RECT.x<= pos[0] <=POP_UP_RECT.x+POP_UP_RECT.width) and (POP_UP_RECT.y<=pos[1]<=POP_UP_RECT.y+POP_UP_RECT.height):
+                py.time.delay(500)
                 new_game()
 
 def new_game():
@@ -253,12 +257,11 @@ def main():
                         if turn==1:
                             print()
                             player_1_moves(border_rect_1.x,border_rect_1.y)
-                            win_check
-                            win_draw_popup(win_check())
+                            win_check()
                             turn=0
                         elif turn==0:
                             player_2_moves(border_rect_1.x,border_rect_1.y) 
-                            win_draw_popup(win_check())
+                            win_check()
                             turn=1
             keys_pressed=py.key.get_pressed()
             moving_rect(keys_pressed)
