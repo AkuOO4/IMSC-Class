@@ -2,28 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "java",
-      "name": "Launch student",
-      "request": "launch",
-      "mainClass": "student",
-      "projectName": "Java_a34724c4"
-    },
-    {
-      "type": "java",
-      "name": "Launch Main",
-      "request": "launch",
-      "mainClass": "Main",
-      "projectName": "Java_a34724c4"
-    },
-    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "d:/prgrming/git/python-lab/Java",
-      "program": "d:/prgrming/git/python-lab/Java/build/Debug/outDebug",
+      "cwd": "d:/prgrming/git/python-lab/Data_structures/lab_cycles/cycle-1",
+      "program": "d:/prgrming/git/python-lab/Data_structures/lab_cycles/cycle-1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
