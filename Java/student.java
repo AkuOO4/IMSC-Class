@@ -28,8 +28,11 @@ public class student {
     System.out.println("Enter the Student marks \n");
     for(int i=0;i<3;i++){
         mark[i]=sc.nextFloat();
+        if (mark[i]<50)
+            mark[i]=0;
         total[0]+=mark[i];
     }
+
    }
 
    public void Get_Data(){
@@ -50,6 +53,12 @@ public class student {
 
    }
 
+//    public void calc_grade(){
+//     for(int i=0;i<3;i++){
+//         if (mark[i]<50)
+//             mark[i]=0;
+//     }
+//    }
    public static void main(String[] arg){
 
     student Student=new student();
