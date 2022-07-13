@@ -1,22 +1,21 @@
 #include<iostream>
 using namespace std;
 
-int Binary_search(int arr[],int start,int stop,int ele)
+int interpolation(int arr[], int len,int ele)
 {
-    
+    int start=0;
+    int stop=len-1;
     
     do
     {
-        int middle=start + (ele - arr[start]) * ((stop - start) / (arr[stop] - arr[start]));
+        int middle=start + ((stop - start) / (arr[stop] - arr[start]))*(ele-arr[start]);
         cout<<middle;   
         if (arr[middle]==ele)
             return middle;
         else if (arr[middle]>ele)
-            stop=middle-1;
-            //return binary_search(arr,start,middle+1,ele);
+            stop=stop-1;
         else if (arr[middle]<ele)
-           start=middle+1;
-        return Binary_search(arr,start,stop,ele);
+           start=start+1;
     } while (start<stop  and ele>=arr[start] and ele<=arr[stop]);
     return -1;
 }
@@ -26,7 +25,7 @@ int main()
     int A[n]={1,2,3,4,5,6,7,8,9,10};
     int element=9;
     
-    int loc=Binary_search(A,0,n,element);
+int loc=interpolation(A,n,element);
 
     if (loc==-1)
         cout<<"element not found ";
