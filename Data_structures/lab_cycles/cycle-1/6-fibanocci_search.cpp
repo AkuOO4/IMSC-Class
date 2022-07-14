@@ -6,25 +6,42 @@ int Fib_search(int arr[],int start,int stop,int ele)
     int fib1=0;
     int fib2=1;
     int fibm=fib1+fib2;
+
     while (fibm<stop){
         fib1=fib2;
         fib2=fibm;
         fibm=fib1+fib2;
 
     }
+    int offset=-1;
 
-    //do{
-        if (fibm<1 and fibm>arr[stop])  
-            return-1;
 
-        else if (arr[fibm]==ele)
-            return fibm;
-        else if (arr[fibm]>ele)
-            return Fib_search(arr,start,fib2,ele);
-        else if (arr[fibm]<ele)
-            return Fib_search(arr,fib2,stop,ele);
-    //} while (fibm>1 and fibm<stop) ;
-   // return -1;
+    do{
+        int i =min(offset+fib2,stop-1);
+
+        
+        if (arr[i]>ele){
+            fibm=fib1;
+            fib2=fib2-fib1;
+            fib1=fibm-fib2;
+        }
+
+        else if (arr[i]<ele){
+            
+            fibm=fib2;
+            fib2=fib1;
+            fib1=fibm-fib2;
+            offset=i;
+        }
+
+        else if (arr[i]==ele)
+            return i;
+    } while (fibm>1) ;
+
+    if (fibm==1 and arr[offset+1]==ele){
+        return offset+1;
+    }
+    return -1;
 }
 int main()
 {
