@@ -10,24 +10,27 @@ int Fib_search(int arr[],int start,int stop,int ele)
         fib1=fib2;
         fib2=fibm;
         fibm=fib1+fib2;
+
     }
 
-    do
-    {
-        if (arr[fib1]==ele)
-            return fib1;
-        else if (arr[fib2]>ele)
+    //do{
+        if (fibm<1 and fibm>arr[stop])  
+            return-1;
+
+        else if (arr[fibm]==ele)
+            return fibm;
+        else if (arr[fibm]>ele)
             return Fib_search(arr,start,fib2,ele);
-        else if (arr[fib1]<ele)
-            return Fib_search(arr,fib1,stop,ele);
-    } while (fib1>0);
-    return -1;
+        else if (arr[fibm]<ele)
+            return Fib_search(arr,fib2,stop,ele);
+    //} while (fibm>1 and fibm<stop) ;
+   // return -1;
 }
 int main()
 {
     int n=10;
     int A[n]={1,2,3,4,5,6,7,8,9,10};
-    int element=9;
+    int element=4;
     
     int loc=Fib_search(A,0,n,element);
 

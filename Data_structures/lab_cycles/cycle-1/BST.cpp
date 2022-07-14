@@ -41,14 +41,15 @@ class BST
         void in(Node* node);
         void post(Node* node);
         Node* delete_node(Node* node,int key);
-        void delete_it(int val){
-            root = delete_node(root,val);
+        void delete_it(int Data){
+            root = delete_node(root,Data);
         }
+        Node* deleteRoot(Node* root);
 
         void post_pre_in(void){
             cout<<"\npre-oreder ";
             pre(root);
-            cout<<"\nin-reder ";
+            cout<<"\nin-order ";
             in(root);
             cout<<"\npost-order ";
             post(root);
@@ -70,29 +71,60 @@ void BST::insert_node(int value){
         if (value<=temp->Data){
             if(temp->left==NULL){
                 temp->left=newNode;
-                return;
+                cout<<newNode->Data<<"L ";
+                break;
             }
 
             else{
                 temp=temp->left;
-                return;
+                //break;
             }         
         }
         else if (value>temp->Data){
         if (temp->right==NULL){
             temp->right = newNode;
-				break;
+            cout<<newNode->Data<<"R";
+			break;
         }
         else{
-            temp->right = newNode;
-			break;
+            temp=temp->right;
+			//break;
 
         }
         }
     }
-    cout<<root->Data;
-}
-
+    
+}/*
+Node* BST:: deleteRoot(Node* root){
+         if(!root || root->Data == 0)return NULL;
+            if(root->right == NULL) return root->left;
+         Node* x = root->right;
+         while(x->left)x = x->left;
+         x->left = root->left;
+         return root->right;
+      }
+   Node* BST::deleteRoot(Node* root, int key) {
+      if(root == NULL || root->Data == key) return deleteRoot(root);
+         Node* curr = root;
+      while(1) {
+         int x = curr->Data;
+         if(key < x){
+            if(curr->left == NULL || curr->left->Data == key){
+               curr->left = deleteRoot(curr->left);
+               break;
+            }
+            curr = curr->left;
+         } else {
+            if(curr->right == NULL || curr->right->Data == key){
+               curr->right = deleteRoot(curr->right);
+               break;
+            }
+            curr = curr->right;
+         }
+      }
+      return root;
+   }
+   */
 Node* BST::delete_node(Node* node,int key){
 	if (node==NULL){
 		return NULL;
@@ -117,25 +149,25 @@ Node* BST::delete_node(Node* node,int key){
 			return temp;
 		}
 		else {
-			Node* Parent = node;
-			Node* child = node->right;
-			while (child->left != NULL){
-				Parent = child;
-				child = child->left;
+			Node* succParent = node;
+			Node* succ = node->right;
+			while (succ->left != NULL){
+				succParent = succ;
+				succ = succ->left;
 			}
-			if (Parent != node){
-				Parent->left = child->right;
+			if (succParent != node){
+				succParent->left = succ->right;
 			}
 			else{
-				Parent->right = child->right;
+				succParent->right = succ->right;
 			}
-			node->Data = child->Data;
-			delete child;
+			node->Data = succ->Data;
+			delete succ;
 			return node;
 		}
 	}
 }
-
+*/
 void BST::pre(Node* node){
 
 	 if (node != NULL){
@@ -165,13 +197,15 @@ void BST::post(Node* node){
 
 int main(){
     BST* binary_search_tree=new BST();
-    binary_search_tree->insert_node(1);
-
-    binary_search_tree->insert_node(3);
     binary_search_tree->insert_node(4);
+    binary_search_tree->insert_node(2);
+    binary_search_tree->insert_node(1);
     binary_search_tree->insert_node(5);
+    binary_search_tree->insert_node(3);
+    
+    
     binary_search_tree->insert_node(5);
-    binary_search_tree->delete_it(5);
+    binary_search_tree->deleteRoot(5);
     binary_search_tree->post_pre_in();
     cout<<"done";
 
