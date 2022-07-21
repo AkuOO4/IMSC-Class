@@ -43,9 +43,16 @@ int* deletion(int arr[],int len,int element)
 
 int main()
 {
-    int arr[9]={1,2,3,4,5,6,7,8,9};
-    int ele;
-    int len=size(arr);
+
+    cout << "Enter size of array: " << endl;
+    int len,ele;
+    cin >> len;
+    int arr[len];
+
+    cout << "Enter " << len << " integers in order: " << endl;
+    for (int i = 0; i < len; i++) {
+        cin >> arr[i];
+    }
 
     cout<<"1. Insertion\n2. Deletion\n";
     int inp;
@@ -56,6 +63,7 @@ int main()
         int postion;
         cout<<"Enter the element and position to insert\n";
         cin>>ele>>postion;
+        
         int *new_arr=new int(len+1);    
         new_arr=insertion(arr,len,ele,postion);
 
