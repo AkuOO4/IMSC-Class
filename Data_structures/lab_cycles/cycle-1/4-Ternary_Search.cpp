@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int Ternary_Search(int arr[],int ele,int left_index,int right_index)
+int Ternary_Search(int arr[],int left_index,int right_index,int ele)
 {
     if (left_index<=right_index)
     {
@@ -29,16 +29,23 @@ int Ternary_Search(int arr[],int ele,int left_index,int right_index)
 
 int main()
 {
-    int arr[]={1,2,3,4,5,6,7,8,9};
-    int len=size(arr);
+    cout << "Enter size of array: " << endl;
+    int size,ele;
+    cin >> size;
+    int myarray[size];
 
-    int element_to_be_searched=5;
-    cout<<"Enter the item to searched";
-    cin>>element_to_be_searched;            
-    int loc=Ternary_Search(arr,element_to_be_searched,0,len);
+    cout << "Enter " << size << " integers in order: " << endl;
+    for (int i = 0; i < size; i++) {
+        cin >> myarray[i];
+    }
+    cout << "Enter Element to be searched" << endl;
+    cin>>ele;
+    cout << endl;
+    int loc=Ternary_Search(myarray,0,size,ele);
+
     if (loc==-1)
         cout<<"element not found ";
     else
-        cout<<"element searched = "<<element_to_be_searched<<endl
+        cout<<"element searched = "<<ele<<endl
             <<"it's location is "<<loc<<endl;
 }

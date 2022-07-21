@@ -21,15 +21,23 @@ int interpolation(int arr[], int len,int ele)
 }
 int main()
 {
-    int n=10;
-    int A[n]={1,2,3,4,5,6,7,8,9,10};
-    int element=9;
-    
-int loc=interpolation(A,n,element);
+    cout << "Enter size of array: " << endl;
+    int size,ele;
+    cin >> size;
+    int myarray[size];
+
+    cout << "Enter " << size << " integers in order: " << endl;
+    for (int i = 0; i < size; i++) {
+        cin >> myarray[i];
+    }
+    cout << "Enter Element to be searched" << endl;
+    cin>>ele;
+    cout << endl;
+    int loc=interpolation(myarray,size,ele);
 
     if (loc==-1)
         cout<<"element not found ";
     else
-        cout<<"element searched = "<<element<<endl
+        cout<<"element searched = "<<ele<<endl
             <<"it's location is "<<loc<<endl;
 }

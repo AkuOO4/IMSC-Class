@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void selection_sort(int data[],int &n){
+void insertion_sort(int data[],int &n){
     for(int k=2;k<n;k++)
     {
         int temp=data[k];
@@ -15,12 +15,28 @@ void selection_sort(int data[],int &n){
     }
 }
 
-int main(){
-    int len=10;
-    int array[len]={1,9,10,2,3,5,4,8,6,7};
+int main()
+{
+    cout << "Enter size of array: " << endl;
+    int size;
+    cin >> size;
+    int myarray[size];
 
-    selection_sort(array,len);
-    for (int i=0;i<10;i++){
-        cout<<array[i]<<endl;
+    cout << "Enter " << size << " integers in any order: " << endl;
+    for (int i = 0; i < size; i++) {
+        cin >> myarray[i];
     }
+    cout << "Before Sorting" << endl;
+    for (int i = 0; i < size; i++) {
+        cout << myarray[i] << " ";
+    }
+    cout << endl;
+    insertion_sort(myarray, size);
+
+    cout << "After Sorting" << endl;
+    for (int i = 0; i < size; i++) {
+        cout << myarray[i] << " ";
+    }
+
+    return 0;
 }
