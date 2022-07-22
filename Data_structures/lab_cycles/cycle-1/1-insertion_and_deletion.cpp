@@ -1,31 +1,47 @@
 #include <iostream>
 using namespace std;
 
-int* insertion (int arr[],int len, int element, int position)
+void insertion (int arr[],int new_arr[],int len, int element, int position)
 {
-    static  int *new_arr=new int(len+1);
-    int i=0,k=0;
-    while (i<=len+1)
-    {
-        if (i!=position)      
-        {
-            new_arr[i]=arr[k];
-        }
-        else
-        {
-            new_arr[i]=element;
-            //k++;
-        }
-        i++;
-        k++;
+
+    for(int i=0; i<position; i++){
+        new_arr[i] = arr[i];
     }
 
-    return new_arr;
+    new_arr[position] = element;
+
+    for(int i=position+1; i<=len; i++){
+        new_arr[i] = arr[i-1];
+    }
+
+    for(int i=0; i<=len; i++)
+        cout<<new_arr[i]<<" ";
+
+
+    // int i=0,k=0;
+    // while (k<=len)
+    // {
+    //     if (i==position)      
+    //     {
+    //         new_arr[i]=element;
+    //         //k++;
+            
+            
+    //     }
+    //     else
+    //     {
+    //         new_arr[i]=arr[k];
+    //         k++;
+    //     }
+    //     i++;
+       
+    // }
+
+    //return new_arr;
 }
 
-int* deletion(int arr[],int len,int element)
+void deletion(int arr[],int new_arr[],int len,int element)
 {
-    static int *new_arr=new int(len-1);
     int i=0,k=0;
     while (k<len)
     {
@@ -38,7 +54,7 @@ int* deletion(int arr[],int len,int element)
         k++;
         
     }
-    return new_arr;
+    //return new_arr;
 }
 
 int main()
@@ -64,18 +80,19 @@ int main()
         cout<<"Enter the element and position to insert\n";
         cin>>ele>>postion;
         
-        int *new_arr=new int(len+1);    
-        new_arr=insertion(arr,len,ele,postion);
+        //int *new_arr=new int(len+1);    
+        int new_arr[len+1];
+        insertion(arr,new_arr,len,ele,postion-1);
 
-        for (int i=0;i<len;i++)
-            cout<<new_arr[i]<<endl;
+        // for (int i=0;i<len+1;i++)
+        //     cout<<new_arr[i]<<endl;
     }
     else if(inp==2)
     {
         cout<<"Enter the element to delete\n";
         cin>>ele;
-        int *new_arr=new int(len-1);
-        new_arr=deletion(arr,len,ele);
+        int *new_arr=new int[len-1];
+        deletion(arr,new_arr,len,ele);
         
         for (int i=0;i<len-1;i++)
             cout<<new_arr[i]<<endl;

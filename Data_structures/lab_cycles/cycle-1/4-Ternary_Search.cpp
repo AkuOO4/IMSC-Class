@@ -17,7 +17,7 @@ int Ternary_Search(int arr[],int left_index,int right_index,int ele)
         else if (arr[middle1]>ele)
             return Ternary_Search(arr,ele,0,middle1);
         
-        else if (arr[middle2]>ele)
+        else if (arr[middle2]<ele)
             return Ternary_Search(arr,ele,middle1,middle2);
 
         else 
