@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void insertion (int arr[],int new_arr[],int len, int element, int position)
+void extract (int arr[],int new_arr[],int len, int element, int position)
 {
 
     for(int i=0; i<position; i++){
@@ -82,7 +82,7 @@ int main()
         
         //int *new_arr=new int(len+1);    
         int new_arr[len+1];
-        insertion(arr,new_arr,len,ele,postion-1);
+        extract(arr,new_arr,len,ele,postion-1);
 
         // for (int i=0;i<len+1;i++)
         //     cout<<new_arr[i]<<endl;
