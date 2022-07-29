@@ -1,4 +1,4 @@
-import java.util.*;  
+import java.util.Scanner;  
 
 public class reverse_of_a_number
 {

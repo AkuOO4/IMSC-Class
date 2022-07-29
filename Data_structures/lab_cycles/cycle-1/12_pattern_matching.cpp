@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void extract (char arr[],char new_arr[],int len, int len2)
+void insert (char arr[],char new_arr[],int len, int len2)
 {
 
     for(int i=0; i<len; i++){
@@ -46,7 +46,7 @@ int main()
     cin>>pattern;
     
     //int *new_arr=new int(len+1);    
-    extract(arr,pattern,len,pattern_len);
+    insert(arr,pattern,len,pattern_len);
 
     
 }

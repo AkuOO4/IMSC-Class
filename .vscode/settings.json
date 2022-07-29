@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "iomanip": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "string": "cpp",
+        "type_traits": "cpp",
+        "xmemory": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp",
+        "iostream": "cpp",
+        "iterator": "cpp",
+        "xlocmon": "cpp",
+        "xlocnum": "cpp"
+    }
+}

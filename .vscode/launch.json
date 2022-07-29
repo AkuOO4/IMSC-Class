@@ -5,6 +5,41 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch reverse_of_a_number",
+            "request": "launch",
+            "mainClass": "reverse_of_a_number",
+            "projectName": "python-lab_3336b24d"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum_of_2_numbers_hardcoded",
+            "request": "launch",
+            "mainClass": "sum_of_2_numbers_hardcoded",
+            "projectName": "python-lab_3336b24d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Area",
+            "request": "launch",
+            "mainClass": "Area.Area",
+            "projectName": "python-lab_3336b24d"
+        },
+        {
+            "type": "java",
+            "name": "Launch student",
+            "request": "launch",
+            "mainClass": "student.student",
+            "projectName": "python-lab_3336b24d"
+        },
+        {
+            "type": "java",
+            "name": "Launch student",
+            "request": "launch",
+            "mainClass": "student",
+            "projectName": "python-lab_3336b24d"
+        },
+        {
             "name": "(gdb) Bash on Windows Attach",
             "type": "cppdbg",
             "request": "attach",
@@ -13,7 +48,9 @@
             "pipeTransport": {
                 "debuggerPath": "/usr/bin/gdb",
                 "pipeProgram": "${env:windir}\\system32\\bash.exe",
-                "pipeArgs": ["-c"],
+                "pipeArgs": [
+                    "-c"
+                ],
                 "pipeCwd": ""
             },
             "setupCommands": [
@@ -23,13 +60,12 @@
                     "ignoreFailures": true
                 },
                 {
-                    "description":  "Set Disassembly Flavor to Intel",
+                    "description": "Set Disassembly Flavor to Intel",
                     "text": "-gdb-set disassembly-flavor intel",
                     "ignoreFailures": true
                 }
             ]
         },
-
         {
             "name": "(gdb) Attach",
             "type": "cppdbg",
@@ -45,12 +81,11 @@
                     "ignoreFailures": true
                 },
                 {
-                    "description":  "Set Disassembly Flavor to Intel",
+                    "description": "Set Disassembly Flavor to Intel",
                     "text": "-gdb-set disassembly-flavor intel",
                     "ignoreFailures": true
                 }
             ]
         }
-
     ]
 }
