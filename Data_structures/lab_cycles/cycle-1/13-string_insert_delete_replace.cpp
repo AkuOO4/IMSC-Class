@@ -4,7 +4,7 @@ using namespace std;
 void insert (char arr[],char new_arr[],char content[],int len, int insert_len,int insert_pos)
 {
 
-int new_len=len+insert_len;
+    int new_len=len+insert_len;
     int i=0;
     while(i<insert_pos){
         new_arr[i]=arr[i];
@@ -26,12 +26,16 @@ void replace (char arr[],char content[],int len, int replace_len,int replace_pos
 {
 
 //int new_len=len+insert_len;
-    int j=0;
+    if((replace_len+replace_pos<len)){ 
+        int j=0;
+        for(int i=replace_pos; i<replace_pos+replace_len; i++){
+            arr[i]=content[j];
 
-    for(int i=replace_pos; i<replace_pos+replace_len; i++){
-        arr[i]=content[j];
-
-        j++;
+            j++;
+        }
+    }
+    else{
+        cout<<"Cannot replace Enter a pattern of lower len";
     }
 }
 
@@ -68,54 +72,102 @@ void delete_it(char arr[],int len,int start,int stop){
 //cout<<new_arr;
 int main()
 {
-    int len=10,pattern_len=5;
+    int len;
     cout << "Enter size of array: " << endl;
-    
-    // cin >> len;
+    cin >> len;
     char *arr=new char[len];
     // for (int i=0;i<len;i++)
     //     arr[i]=i+1;
     //char *arr[len]="1234567891";
-    arr="1234567891";
     cout << "Enter " << len << " integers in order: " << endl;
-    // cin >> arr;
+    cin>>arr;
 
-    
-    cout<<"Enter the length of the the pattrern \n";
-    // cin>>pattern_len;
+    while(true){
+        cout<<"\nDo you want to"
+            <<"\n 1. Insert\n2. Delete\n3 Replace\nPress any other key to exit";
+        int ans;
+        cin>>ans;
+        // cin >> arr;
 
-    char pattern[pattern_len]="abcde";
+        //Insertion
+        if (ans==1){
+            int *insert_len=new int;
+            cout<<"Enter the length of the the pattrern \n";
+            cin>>*insert_len;
+            char *insert_arr=new char[*insert_len];
+            
+            int *pos=new int;
+            cout<<"Enter the Position to insert\n";
+            cin>>*pos;
 
-    cout<<"Enter the pattern\n";
-    int new_len=pattern_len+len;
-    char *new_arr=new char[new_len];
-    cout<<"inserting";
-    insert(arr,new_arr,pattern,len,pattern_len,5);
+            cout<<"Enter the pattern\n";
+            cin>>insert_arr;
 
-    // delete []arr;
-    arr=new_arr;
-    new_arr= NULL;
-    // cout<<"inserted";
+            int new_len=*insert_len+len;
+            char *temp_arr=new char[new_len];
 
-    for(int j=0;j<(new_len);j++){
-        cout<<"arr ["<<j<<"] = "<<arr[j]<<endl;
-    //     cout<<"new_arr ["<<j<<"] = "<<new_arr[j]<<endl;
-    //   // arr[j]=new_arr[j];
-    //     cout<<"changed "<<j<<" ="<<arr[j]<<endl;
+            
+            insert(arr,temp_arr,insert_arr,len,*insert_len,*pos);
+            arr=temp_arr;
+
+            delete insert_len,temp_arr,pos;
+            //temp_arr= NULL;
+            
+        }
+            //Deltetion
+        else if(ans==2){
+            int *start=new int;
+            int *stop=new int;
+            cout<<"\nEnter the starting and stoping position to delete\n";
+            cin>>*start>>*stop;
+            delete_it(arr,len,*start,*stop);
+            len-=(*stop-*start);
+            delete start,stop;
+            
+        }    
+
+        //Replacement
+        else if(ans==3){
+            int *pattern_len=new int;
+            cout<<"\nEnter the length of the pattern\n";
+            cin>>*pattern_len;
+            char *pattern=new char[*pattern_len];
+            cout<<"Enter the pattern\n";
+            cin>>pattern;
+            int *pos=new int;
+            cout<<"Enter the Position to insert\n";
+            cin>>*pos;
+            replace(arr,pattern,len,*pattern_len,*pos);
+            
+        }
+        
+        //Exiting
+        else{
+            cout<<"\nWrong input\nExiting.....";
+            return false;
+        }
+        // delete []arr;
+
+        // cout<<"inserted";
+
+        for(int j=0;j<(len);j++){
+            cout<<"arr ["<<j<<"] = "<<arr[j]<<endl;
+        //     cout<<"new_arr ["<<j<<"] = "<<new_arr[j]<<endl;
+        //   // arr[j]=new_arr[j];
+        //     cout<<"changed "<<j<<" ="<<arr[j]<<endl;
+        
+        }
+
        
-    }
+        // for(int j=0;j<(new_len);j++){
+        //     cout<<new_arr[j];
+        // }
+        // int start=5,stop=8;
+        
+        
 
-    //replace(arr,pattern,len,pattern_len,5);
-    // for(int j=0;j<(new_len);j++){
-    //     cout<<new_arr[j];
-    // }
-    // int start=5,stop=8;
-    // delete_it(arr,len,start,stop);
-    // len-=(stop-start);
-
-    // for(int j=0;j<(new_len);j++){
-    //     cout<<arr[j];
-    // } 
-
-    
+        // for(int j=0;j<(new_len);j++){
+        //     cout<<arr[j];
+        // } 
+        }
 }
