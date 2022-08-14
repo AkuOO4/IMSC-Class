@@ -20,7 +20,7 @@ public:
     }
     void set_data(int data){
         Data=data;
-
+        
     }
 
     friend class BST;
