@@ -30,9 +30,6 @@ class matrix:
                         return False
 
             
-
-
-
 val=[[1,2,3],[3,2,1],[0,9,8]]
 new=val
 print(new)

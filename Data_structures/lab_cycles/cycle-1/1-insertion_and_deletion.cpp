@@ -24,19 +24,15 @@ void extract (int arr[],int new_arr[],int len, int element, int position)
     //     if (i==position)      
     //     {
     //         new_arr[i]=element;
-    //         //k++;
-            
-            
+    //         //k++;           
     //     }
     //     else
     //     {
     //         new_arr[i]=arr[k];
     //         k++;
     //     }
-    //     i++;
-       
+    //     i++;     
     // }
-
     //return new_arr;
 }
 
