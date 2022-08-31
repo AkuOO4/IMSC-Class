@@ -26,6 +26,7 @@ public:
     void traverse(void);
     void insert(int new_data);
     void push_it(int new_data);
+    bool delete_item(int x);
 };
 
 void linked_list::push_it(int new_data){
@@ -45,7 +46,27 @@ void linked_list::push_it(int new_data){
     /* 5. move the head to point to the new node */
     href = new_node;
 }
+bool linked_list::delete_item(int x){
+    Node* head=new Node();
+    Node* prev_head=new Node();
 
+
+    head=href;
+    prev_head=head;
+    while(head!=NULL){
+        if (head->Data==x){
+            if (prev_head==head){
+                href=head->right;
+            }
+            else
+                prev_head->right=head->right;
+            return true;
+        }
+        prev_head=head;
+        head=head->right;
+    }
+    return false;
+}
 void linked_list::insert(int new_data){
     Node* head=new Node();
     head=href;
@@ -116,10 +137,14 @@ int main()
     // list->push(21);
     // list->push(30);
     //list->insert(15);
-    
+    list->traverse();
+
+    cout<<"\ndeleting 12"<<endl;
     
  
    // list->search(10)? cout<<"Yes" : cout<<"No";
+
+   list->delete_item(12);
     list->traverse();
     return 0;
 }
