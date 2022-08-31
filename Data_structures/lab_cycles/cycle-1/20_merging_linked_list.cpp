@@ -16,10 +16,10 @@ Node(){
 };
 
 class linked_list{
-    Node *href=new Node();
+    Node *START=new Node();
 public:
     linked_list(){
-        href=NULL;
+        START=NULL;
     }
     void push(int new_data);
     bool search(int x);
@@ -30,7 +30,7 @@ public:
 
 void linked_list::insert(int new_data){
     Node* head=new Node();
-    head=href;
+    head=START;
     Node* new_node=new Node();
     Node* next_node=new Node();
     new_node->Data=new_data;
@@ -51,13 +51,13 @@ void linked_list::insert(int new_data){
 void linked_list::push(int new_data){
     Node* new_node=new Node();
     new_node->Data=new_data;
-    new_node->next=href;
-    href=new_node;
+    new_node->next=START;
+    START=new_node;
 }
 
 bool linked_list::search(int x){
     Node* head=new Node();
-    head=href;
+    head=START;
     while(head!=NULL){
         if (head->Data==x)
             return true;
@@ -68,7 +68,7 @@ bool linked_list::search(int x){
 
 void linked_list::traverse(void){
     Node* head=new Node();
-    head=href;
+    head=START;
     cout<<"\nDATA\n";
     while(head!=NULL){
         cout<<head->Data<<endl;
@@ -81,9 +81,9 @@ void merge(linked_list *list1,linked_list *list2){
     Node* head2=new Node();
     Node* head1_prev=new Node;
     Node* head2_prev=new Node;
-    head1=list1->href;
+    head1=list1->START;
     head1_prev=head1;
-    head2=list2->href;
+    head2=list2->START;
     head2_prev=head2;
     
     while((head1!=NULL) or (head2!=NULL)){
