@@ -7,7 +7,8 @@ int Ternary_Search(int arr[],int left_index,int right_index,int ele)
     {
         int middle1=left_index+(right_index-left_index)/3;
         int middle2=right_index-(right_index-left_index)/3;
-
+        cout<<"midlle1-"<<middle1<<endl;
+        cout<<"midlle2-"<<middle2<<endl;
         if (arr[middle1]==ele)
             return middle1;
         
@@ -15,13 +16,13 @@ int Ternary_Search(int arr[],int left_index,int right_index,int ele)
             return middle2;
 
         else if (arr[middle1]>ele)
-            return Ternary_Search(arr,ele,0,middle1);
+            return Ternary_Search(arr,left_index,middle1-1,ele);
         
         else if (arr[middle2]<ele)
-            return Ternary_Search(arr,ele,middle1,middle2);
+            return Ternary_Search(arr,middle2+1,right_index,ele);
 
         else 
-            return Ternary_Search(arr,ele,middle2,right_index);
+            return Ternary_Search(arr,middle1+1,middle2-1,ele);
             
     }
     return -1;
