@@ -64,6 +64,8 @@ bool linked_list::search(int x){
         if (head->Data==x)
             return true;
         head=head->next;
+        if(head==START)
+            return false;
     }
     return false;
 }
@@ -75,6 +77,8 @@ void linked_list::traverse(void){
     while(head!=NULL){
         cout<<head->Data<<endl;
         head=head->next;
+        if(head==START)
+            return;
     }
 }
 int main()
