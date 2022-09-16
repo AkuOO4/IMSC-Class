@@ -14,6 +14,7 @@ void extract (int arr[],int new_arr[],int len, int element, int position)
         new_arr[i] = arr[i-1];
     }
 
+
     for(int i=0; i<=len; i++)
         cout<<new_arr[i]<<" ";
 
@@ -59,7 +60,7 @@ int main()
     cout << "Enter size of array: " << endl;
     int len,ele;
     cin >> len;
-    int arr[len];
+    int* arr[len];
 
     cout << "Enter " << len << " integers in order: " << endl;
     for (int i = 0; i < len; i++) {
@@ -69,7 +70,9 @@ int main()
     cout<<"1. Insertion\n2. Deletion\n";
     int inp;
     cin>>inp;
-
+    while (inp<3)
+    {
+    
     if (inp==1)
     {
         int postion;
@@ -77,7 +80,7 @@ int main()
         cin>>ele>>postion;
         
         //int *new_arr=new int(len+1);    
-        int new_arr[len+1];
+        int* new_arr=new int[len+1];
         extract(arr,new_arr,len,ele,postion-1);
 
         // for (int i=0;i<len+1;i++)
@@ -93,6 +96,8 @@ int main()
         for (int i=0;i<len-1;i++)
             cout<<new_arr[i]<<endl;
     }
-
-
+    cout<<"\n1. Insertion\n2. Deletion\n3.Exit\n";
+    int inp;
+    cin>>inp;
+    }
 }

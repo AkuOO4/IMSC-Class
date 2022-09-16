@@ -55,28 +55,19 @@ int main()
 {
     // Start with the empty list
     linked_list *list =new linked_list();
-    int x = 21;
- 
-    // Use push() to construct list
-    // 14->21->11->30->10
-    // int inp;
-    // cout<<"1. ADD\n2. Search\n3. Traverse\n";
-    // cin<<inp;
-    // while (true)
-    // {
-    //     if(inp==1){
-    //         list->push(10);
-    //         list
-    //     }
-    // }
-    
+    int x;
+
     list->push(10);
     list->push(30);
     list->push(11);
     list->push(21);
     list->push(14);
- 
-    list->search(10)? cout<<"Yes" : cout<<"No";
+
     list->traverse();
+
+    cout<<"Enter the element to be searched\n";
+    cin>>x;
+    list->search(10)? cout<<"\nElement Found" : cout<<"\nElement Not Found";
+
     return 0;
 }

@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void selection_sort(int data[],int n){
+void bubble_sort(int data[],int n){
 
 while (n>=0)
 {
@@ -36,7 +36,7 @@ int main()
         cout << myarray[i] << " ";
     }
     cout << endl;
-    selection_sort(myarray, size);
+    bubble_sort(myarray, size);
 
     cout << "After Sorting" << endl;
     for (int i = 0; i < size; i++) {

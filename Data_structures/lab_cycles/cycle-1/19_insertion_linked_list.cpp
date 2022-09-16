@@ -10,7 +10,6 @@ Node(){
     next=NULL;
 }
     friend class linked_list;
-
 };
 
 class linked_list{
@@ -73,12 +72,13 @@ void linked_list::traverse(void){
         head=head->next;
     }
 }
+
 int main()
 {
     cout<<"\nstart\n";
     // Start with the empty list
     linked_list *list =new linked_list();
-    int x = 21;
+    int x,inp;
  
     // Use push() to construct list
     // 14->21->11->30->10
@@ -87,11 +87,17 @@ int main()
     list->push(14);
     list->push(21);
     list->push(30);
-    list->insert(15);
-    
-    
- 
-    list->search(10)? cout<<"Yes" : cout<<"No";
     list->traverse();
+     
+    do {
+    cout<<"Enter the element to insert ";
+    cin>>x;
+
+    list->insert(x);
+    list->traverse();
+    cout<<"1. Insert\n2. Exit\n";
+    cin<<inp;
+    } while(inp==1);
+
     return 0;
 }

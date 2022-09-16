@@ -4,13 +4,6 @@ using namespace std;
 void inv(int B1[][3], int B2[][3])
 {
 
-    // for(int i=0; i<7; i++){
-    //     for(int j=0; j<3; j++){
-    //         cout<<B1[i][j]<<" ";
-    //     }
-    //     cout<<"\n";
-    // }
-
     B2[0][0] = B1[0][1];
     B2[0][1] = B1[0][0];
     B2[0][2] = B1[0][2];
@@ -30,7 +23,14 @@ void inv(int B1[][3], int B2[][3])
             }
         }
     }
-    
+
+    cout<<"\nTranspose : \n";
+    for(int i=0; i<7; i++){
+        for(int j=0; j<3; j++){
+            cout<<B2[i][j]<<" ";
+        }
+        cout<<"\n";
+    }
 }
 
 int main()
@@ -48,13 +48,7 @@ int main()
     }
     inv(B1,B2);
 
-    cout<<"\nTranspose : \n";
-    for(int i=0; i<7; i++){
-        for(int j=0; j<3; j++){
-            cout<<B2[i][j]<<" ";
-        }
-        cout<<"\n";
-    }
+
 
     return 0;
 }

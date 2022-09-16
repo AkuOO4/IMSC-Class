@@ -15,6 +15,7 @@ int Binary_search(int arr[],int start,int stop,int ele)
     } while (middle!=0);
     return -1;
 }
+
 int main()
 {
     cout << "Enter size of array: " << endl;

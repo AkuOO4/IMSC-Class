@@ -46,39 +46,14 @@ void delete_it(char arr[],int len,int start,int stop){
         i++;  
     }
 }
-// void insert (char arr[],char new_arr[],int len, int new_l)
-// {
 
-//     for(int i=0; i<len; i++){
-//         int k=0;
-//         int l=i;
-//         for(int j=0;j<new_len;j++){
-
-//             if(new_arr[j]==arr[l]){
-                
-//                 k++;
-//             }
-//             else
-//                 break;
-//             l++;
-//         }
-
-//         if (k==new_len){
-//             cout<<"pattern matched at "<<i<<endl;
-//         }
-
-//     }
-// }
-//cout<<new_arr;
 int main()
 {
     int len;
     cout << "Enter size of array: " << endl;
     cin >> len;
     char *arr=new char[len];
-    // for (int i=0;i<len;i++)
-    //     arr[i]=i+1;
-    //char *arr[len]="1234567891";
+
     cout << "Enter " << len << " integers in order: " << endl;
     cin>>arr;
 
@@ -87,7 +62,6 @@ int main()
             <<"\n 1. Insert\n2. Delete\n3 Replace\nPress any other key to exit";
         int ans;
         cin>>ans;
-        // cin >> arr;
 
         //Insertion
         if (ans==1){
@@ -146,28 +120,9 @@ int main()
             cout<<"\nWrong input\nExiting.....";
             return false;
         }
-        // delete []arr;
-
-        // cout<<"inserted";
 
         for(int j=0;j<(len);j++){
-            cout<<"arr ["<<j<<"] = "<<arr[j]<<endl;
-        //     cout<<"new_arr ["<<j<<"] = "<<new_arr[j]<<endl;
-        //   // arr[j]=new_arr[j];
-        //     cout<<"changed "<<j<<" ="<<arr[j]<<endl;
-        
+            cout<<"arr ["<<j<<"] = "<<arr[j]<<endl;        
         }
-
-       
-        // for(int j=0;j<(new_len);j++){
-        //     cout<<new_arr[j];
-        // }
-        // int start=5,stop=8;
-        
-        
-
-        // for(int j=0;j<(new_len);j++){
-        //     cout<<arr[j];
-        // } 
         }
 }

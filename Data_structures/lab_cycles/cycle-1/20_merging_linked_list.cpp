@@ -25,7 +25,7 @@ public:
     bool search(int x);
     void traverse(void);
     void insert(int new_data);
-     void merge(linked_list* head1,linked_list* head2);
+    friend void merge(linked_list* head1,linked_list* head2);
 };
 
 void linked_list::insert(int new_data){
@@ -87,7 +87,7 @@ void merge(linked_list *list1,linked_list *list2){
     head2_prev=head2;
     
     while((head1!=NULL) or (head2!=NULL)){
-        if (head1->Data>head2->Data){
+        if (head1->Data<head2->Data){
             head1->next;
         }
         else{
@@ -106,30 +106,46 @@ int main()
     cout<<"\nstart\n";
     // Start with the empty list
     linked_list *list1 =new linked_list();
-    int x = 21;
+    int x,y;
  
     // Use push() to construct list
     // 14->21->11->30->10
-    list1->push(10);
-    list1->push(11);
-    list1->push(14);
-    list1->push(21);
-    list1->push(30);
-    list1->insert(15);
+    int len1,len2;
+    cout<<"Enter the number of Elements in list1\n";
+    cin >>len1;
+    cout<<"Enter the Elements";
+    for(int i=0;i<len1;i++){
+        cin>>x;
+        list1->push(x);
+    }
+    list1->traverse();
+    // list1->push(10);
+    // list1->push(11);
+    // list1->push(14);
+    // list1->push(21);
+    // list1->push(30);
+    // list1->insert(15);
     
-    linked_list *list2 =new linked_list();
+    linked_list *list2 =new linked_list(); 
 
- 
+    cout<<"Enter the number of Elements in list1\n";
+    cin >>len2;
+    cout<<"Enter the Elements";
+    for(int i=0;i<len2;i++){
+        cin>>y;
+        list2->push(y);
+    }
+    list2->traverse();
     // Use push() to construct list
     // 14->21->11->30->10
-    list2->push(9);
-    list2->push(12);
-    list2->push(16);
-    list2->push(22);
-    list2->push(29);
+    // list2->push(9);
+    // list2->push(12);
+    // list2->push(16);
+    // list2->push(22);
+    // list2->push(29);
     //list1->insert(15);
     merge(list1,list2);
-   // list1->search(10)? cout<<"Yes" : cout<<"No";
+    // list1->search(10)? cout<<"Yes" : cout<<"No";
     list1->traverse();
     return 0;
 }
