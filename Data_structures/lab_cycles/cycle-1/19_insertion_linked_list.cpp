@@ -30,7 +30,11 @@ void linked_list::insert(int new_data){
     Node* new_node=new Node();
     Node* next_node=new Node();
     new_node->Data=new_data;
-    
+    if (head->Data<new_data){
+        new_node->next= START;
+        START=new_node;
+        return;
+    }
     while(head!=NULL){
         next_node=head->next;
         cout<<head->Data;
@@ -78,26 +82,21 @@ int main()
     cout<<"\nstart\n";
     // Start with the empty list
     linked_list *list =new linked_list();
-    int x,inp;
- 
-    // Use push() to construct list
-    // 14->21->11->30->10
-    list->push(10);
-    list->push(11);
-    list->push(14);
-    list->push(21);
-    list->push(30);
+    int x;
+    int len;
+    cout<<"Enter the no of elements to insert\n";
+    cin>>len;
+    cout<<"Enter the elements in ascending order \n";
+    for (int i=0;i<len;i++){
+        cin>>x;
+        list->push(x);
+    }
     list->traverse();
-     
-    do {
-    cout<<"Enter the element to insert ";
-    cin>>x;
-
-    list->insert(x);
+    int val;
+    cout<<"Enter the element to insert\n";
+    cin>>val;
+    list->insert(val);
     list->traverse();
-    cout<<"1. Insert\n2. Exit\n";
-    cin<<inp;
-    } while(inp==1);
 
     return 0;
 }

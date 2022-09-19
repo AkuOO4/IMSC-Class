@@ -59,14 +59,14 @@ int main()
 
     while(true){
         cout<<"\nDo you want to"
-            <<"\n 1. Insert\n2. Delete\n3 Replace\nPress any other key to exit";
+            <<"\n 1. Insert\n2. Delete\n3 Replace\nPress any other key to exit\n";
         int ans;
         cin>>ans;
 
         //Insertion
         if (ans==1){
             int *insert_len=new int;
-            cout<<"Enter the length of the the pattrern \n";
+            cout<<"Enter the length of the the pattern \n";
             cin>>*insert_len;
             char *insert_arr=new char[*insert_len];
             
@@ -122,7 +122,7 @@ int main()
         }
 
         for(int j=0;j<(len);j++){
-            cout<<"arr ["<<j<<"] = "<<arr[j]<<endl;        
+            cout<<arr[j];        
         }
         }
 }

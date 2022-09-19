@@ -26,19 +26,19 @@ void saddlePoint(){
     
     for(int i=0; i<n; i++){
 
-        int row_min = M[i][0], colno = 0;
+        int row_min = M[i][0], col = 0;
 
         for(int j=1; j<n; j++){
 
             if(row_min > M[i][j]){
                 row_min = M[i][j];
-                colno = j;
+                col = j;
             }
         }
         
         int c;
         for(c=0; c<n; c++){
-            if(row_min < M[c][colno])
+            if(row_min < M[c][col])
                 break;
         }
         
@@ -57,6 +57,4 @@ int main(){
     saddlePoint();
 
     return 0;
-
-
 }

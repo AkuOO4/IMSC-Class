@@ -31,16 +31,16 @@ int main()
     cout << "Enter size of array: " << endl;
     
     cin >> len;
-    char arr[len]="hellohello";
+    char arr[len];
 
-    cout << "Enter " << len << " integers in order: " << endl;
+    cout << "Enter " << len << " charaters: " << endl;
     cin >> arr;
 
     
     cout<<"Enter the length of the the pattrern ";
     cin>>pattern_len;
 
-    char pattern[pattern_len]="hello";
+    char pattern[pattern_len];
 
     cout<<"Enter the pattern\n";
     cin>>pattern;

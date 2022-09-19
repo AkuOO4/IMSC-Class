@@ -119,13 +119,7 @@ int main()
         list1->push(x);
     }
     list1->traverse();
-    // list1->push(10);
-    // list1->push(11);
-    // list1->push(14);
-    // list1->push(21);
-    // list1->push(30);
-    // list1->insert(15);
-    
+
     linked_list *list2 =new linked_list(); 
 
     cout<<"Enter the number of Elements in list1\n";
@@ -136,16 +130,7 @@ int main()
         list2->push(y);
     }
     list2->traverse();
-    // Use push() to construct list
-    // 14->21->11->30->10
-    // list2->push(9);
-    // list2->push(12);
-    // list2->push(16);
-    // list2->push(22);
-    // list2->push(29);
-    //list1->insert(15);
     merge(list1,list2);
-    // list1->search(10)? cout<<"Yes" : cout<<"No";
     list1->traverse();
     return 0;
 }

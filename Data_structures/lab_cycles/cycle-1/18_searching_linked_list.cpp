@@ -56,18 +56,19 @@ int main()
     // Start with the empty list
     linked_list *list =new linked_list();
     int x;
-
-    list->push(10);
-    list->push(30);
-    list->push(11);
-    list->push(21);
-    list->push(14);
-
+    int len;
+    cout<<"Enter the no of elements to insert\n";
+    cin>>len;
+    cout<<"Enter the elements \n";
+    for (int i=0;i<len;i++){
+        cin>>x;
+        list->push(x);
+    }
     list->traverse();
-
+    int val;
     cout<<"Enter the element to be searched\n";
-    cin>>x;
-    list->search(10)? cout<<"\nElement Found" : cout<<"\nElement Not Found";
+    cin>>val;
+    list->search(val)? cout<<"\nElement Found" : cout<<"\nElement Not Found";
 
     return 0;
 }
