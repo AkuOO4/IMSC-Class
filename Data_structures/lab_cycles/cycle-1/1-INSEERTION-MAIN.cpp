@@ -32,10 +32,9 @@ int main()
     int item;
     int n,k,option,select,choice=1;
     
-    cout<<"   ------ INSERTION AND DELETION ON LINEAR ARRAY ------"<<endl;
-    cout<<"   "<<endl;
+    cout<<"\tINSERTION AND DELETION ON LINEAR ARRAY"<<endl;
 
-    cout<<"   Enter the number of elements in the array"<<endl;
+    cout<<"Enter the number of elements in the array"<<endl;
     cin>>n;
     cout<<endl; 
 
@@ -54,13 +53,13 @@ int main()
     cin>>select;
     cout<<"   "<<endl;
     if(select==1){
-        cout<<"   Enter the element to be inserted "<<endl;
-        cout<<"   >>>";
+        cout<<"Enter the element to be inserted "<<endl;
+        cout<<">>>";
         cin>>item;
         cout<<"   "<<endl;
 
-        cout<<"   Enter the position where to be inserted "<<endl;
-        cout<<"   >>>";
+        cout<<"Enter the position where to be inserted "<<endl;
+        cout<<">>>";
         cin>>k;
         cout<<"   "<<endl;
 
