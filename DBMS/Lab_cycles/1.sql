@@ -14,3 +14,12 @@ create table EMPLOYEE(
     );
 
 
+create user 'user'@localhost
+    IDENTIFIED by 'password';
+
+grant select on company.EMPLOYEE to 'user'@'localhost';
+
+show grants for 'user'@'localhost';
+
+revoke select on employee from 'user'@'localhost';
+show grants;
