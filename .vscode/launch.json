@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch zero_div",
+            "request": "launch",
+            "mainClass": "zero_div",
+            "projectName": "python-lab_3336b24d"
+        },
+        {
+            "type": "java",
             "name": "Launch reverse_of_a_number",
             "request": "launch",
             "mainClass": "reverse_of_a_number",
