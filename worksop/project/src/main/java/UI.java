@@ -50,6 +50,12 @@ public class UI extends javax.swing.JFrame {
         login.setBackground(new java.awt.Color(0, 153, 153));
         login.setForeground(new java.awt.Color(51, 51, 255));
 
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
+
         jLabel4.setText("Username");
 
         jLabel5.setText("Password");
@@ -59,6 +65,11 @@ public class UI extends javax.swing.JFrame {
         loginb.setText("Login");
 
         signup_navigb.setText("Signup");
+        signup_navigb.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                signup_navigbActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout loginLayout = new javax.swing.GroupLayout(login);
         login.setLayout(loginLayout);
@@ -264,6 +275,14 @@ public class UI extends javax.swing.JFrame {
     private void SignupbutttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SignupbutttonActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_SignupbutttonActionPerformed
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void signup_navigbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_signup_navigbActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_signup_navigbActionPerformed
 
     /**
      * @param args the command line arguments

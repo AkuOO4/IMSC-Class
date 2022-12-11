@@ -9,7 +9,7 @@ package com.mycompany.mavenproject1;
  *
  * @author cusat
  */
-public class Mavenproject1 {
+public class Sports_complex {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");

@@ -24,7 +24,7 @@ public class Login extends javax.swing.JFrame {
       Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/college","root","root");
       Statement stmt=conn.createStatement();
       ResultSet rs=stmt.executeQuery("select * from student");
-      while(rs.next()){
+      while(rs.next()){ 
         System.out.print(rs.getString("id")+" ");
         System.out.print(rs.getString("name")+" ");
         System.out.print(rs.getString("class")+" ");
