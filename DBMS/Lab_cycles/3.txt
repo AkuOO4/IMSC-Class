@@ -1,0 +1,64 @@
+myCollection
+emp> db.lab.drop()
+true
+emp> db.myCollection.insertOne( { x: 1 } );
+{
+  acknowledged: true,
+  insertedId: ObjectId("639c1215017d4c53551a8b37")
+}
+emp> db.myCollection.insertOne( { y: 2 } );
+{
+  acknowledged: true,
+  insertedId: ObjectId("639c121e017d4c53551a8b38")
+}
+emp> db.myCollection.find();
+[
+  { _id: ObjectId("639c0fc4017d4c53551a8b36"), x: 1 },
+  { _id: ObjectId("639c1215017d4c53551a8b37"), x: 1 },
+  { _id: ObjectId("639c121e017d4c53551a8b38"), y: 2 }
+]
+emp> db.myCollection.listCollections();
+TypeError: db.myCollection.listCollections is not a function
+emp> db.myCollection.find();
+[
+  { _id: ObjectId("639c0fc4017d4c53551a8b36"), x: 1 },
+  { _id: ObjectId("639c1215017d4c53551a8b37"), x: 1 },
+  { _id: ObjectId("639c121e017d4c53551a8b38"), y: 2 }
+]
+emp> db.collection.find( { x:1 )
+Uncaught:
+SyntaxError: Unexpected token, expected "," (1:26)
+
+> 1 | db.collection.find( { x:1 )
+    |                           ^
+  2 |
+
+emp> db.collection.find( { x:1 } )
+
+emp> db.myCollection.update({'x':1},{$set:{'x':5}})
+DeprecationWarning: Collection.update() is deprecated. Use updateOne, updateMany, or bulkWrite.
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+emp> db.collection.find();
+
+emp> db.myCollection.find();
+[
+  { _id: ObjectId("639c0fc4017d4c53551a8b36"), x: 5 },
+  { _id: ObjectId("639c1215017d4c53551a8b37"), x: 1 },
+  { _id: ObjectId("639c121e017d4c53551a8b38"), y: 2 }
+]
+emp> db.myCollection.save({"_id":ObjectId("639c0fc4017d4c53551a8b36"),"name":"hakkeem"})
+TypeError: db.myCollection.save is not a function
+emp> db.myCollection.deleteOne( { "x": 5 } )
+{ acknowledged: true, deletedCount: 1 }
+emp> db.myCollection.find();
+[
+  { _id: ObjectId("639c1215017d4c53551a8b37"), x: 1 },
+  { _id: ObjectId("639c121e017d4c53551a8b38"), y: 2 }
+]
+emp> db.dropDatabase();

@@ -126,11 +126,15 @@ public class add_venues extends javax.swing.JFrame {
         // TODO add your handling code here:
         String venue= venue_name1.getText();
         String prize= venue_prize.getText();
-            try{
-      Class.forName("com.mysql.jdbc.Driver");
-      Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/sports_complex","root","root");
+        int SlNo=2;
+      try{
+      Class.forName("com.mysql.cj.jdbc.Driver");
+      Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3307/sports_complex","root","root");
       Statement stmt=conn.createStatement();
-      ResultSet rs=stmt.executeQuery("insert into venues values (2,\"+venue+\",+prize+);");
+      
+      String q1="insert into venues values ("+SlNo+",'"+venue+"',"+prize+");";
+      System.out.print(q1);
+      stmt.executeUpdate(q1);
 
     } 
     catch (Exception ex) {

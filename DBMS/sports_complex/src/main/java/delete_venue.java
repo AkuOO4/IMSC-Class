@@ -1,3 +1,9 @@
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -26,12 +32,18 @@ public class delete_venue extends javax.swing.JFrame {
     private void initComponents() {
 
         heading = new javax.swing.JLabel();
-        jScrollBar1 = new javax.swing.JScrollBar();
         heading1 = new javax.swing.JLabel();
         delete_button = new javax.swing.JButton();
+        venue_box = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                formMouseMoved(evt);
+            }
+        });
 
+        heading.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         heading.setText("DELETE VENUE");
 
         heading1.setText("SELECT VENUE");
@@ -43,6 +55,13 @@ public class delete_venue extends javax.swing.JFrame {
             }
         });
 
+        venue_box.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        venue_box.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                venue_boxActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -50,30 +69,28 @@ public class delete_venue extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(147, 147, 147)
+                        .addGap(118, 118, 118)
+                        .addComponent(heading, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(162, 162, 162)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(heading1)
-                            .addComponent(heading)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(156, 156, 156)
-                        .addComponent(delete_button))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(99, 99, 99)
-                        .addComponent(jScrollBar1, javax.swing.GroupLayout.PREFERRED_SIZE, 193, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(108, Short.MAX_VALUE))
+                            .addComponent(venue_box, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(delete_button)
+                            .addComponent(heading1, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(132, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(28, 28, 28)
+                .addGap(24, 24, 24)
                 .addComponent(heading)
-                .addGap(35, 35, 35)
-                .addComponent(heading1)
-                .addGap(30, 30, 30)
-                .addComponent(jScrollBar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 55, Short.MAX_VALUE)
+                .addGap(32, 32, 32)
+                .addComponent(heading1, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(34, 34, 34)
+                .addComponent(venue_box, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 79, Short.MAX_VALUE)
                 .addComponent(delete_button)
-                .addGap(49, 49, 49))
+                .addGap(77, 77, 77))
         );
 
         pack();
@@ -81,8 +98,83 @@ public class delete_venue extends javax.swing.JFrame {
 
     private void delete_buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_delete_buttonActionPerformed
         // TODO add your handling code here:
+        
+        
     }//GEN-LAST:event_delete_buttonActionPerformed
 
+    private void venue_boxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_venue_boxActionPerformed
+        // TODO add your handling code here:
+    try{
+      Class.forName("com.mysql.cj.jdbc.Driver");
+      Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3307/sports_complex","root","root");
+      Statement stmt=conn.createStatement();
+      
+      String q1="DELETE FROM table_name WHERE condition;";
+      String q2="select count(id) from sports_items where quantity!=0";
+      //System.out.print(q1);
+      //ResultSet rs2=stmt.executeQuery(q2);
+      //String[] data;
+      ResultSet rs=stmt.executeQuery(q1);
+      
+      //System.out.println("123");
+      venue_box.removeAllItems();
+      //removeAllItems();
+      //int count=0;
+      while (rs.next()){
+        System.out.print(rs.getString(1)+" \n");
+        String data=rs.getString(1);
+        venue_box.addItem(data);
+        //count++;
+      }
+      //return data;
+    } 
+    catch (Exception ex) {
+      System.out.print("\n--ERROR--\n");
+      System.out.print(ex.getMessage());
+    }
+    }//GEN-LAST:event_venue_boxActionPerformed
+
+    private void formMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseMoved
+        // TODO add your handling code here:
+         if (mouse_count()==1){  
+        //dekete==.setVisible(false);
+        try{
+      Class.forName("com.mysql.cj.jdbc.Driver");
+      Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3307/sports_complex","root","root");
+      Statement stmt=conn.createStatement();
+      
+      String q1="select item from sports_items";
+      String q2="select count(id) from sports_items where quantity!=0";
+      //System.out.print(q1);
+      //ResultSet rs2=stmt.executeQuery(q2);
+      //String[] data;
+      ResultSet rs=stmt.executeQuery(q1);
+      
+      //System.out.println("123");
+      venue_box.removeAllItems();
+      //removeAllItems();
+      //int count=0;
+      while (rs.next()){
+        System.out.print(rs.getString(1)+" \n");
+        String data=rs.getString(1);
+        venue_box.addItem(data);
+        //count++;
+      }
+      //return data;
+    } 
+    catch (Exception ex) {
+      System.out.print("\n--ERROR--\n");
+      System.out.print(ex.getMessage());
+    }
+    }
+
+    }//GEN-LAST:event_formMouseMoved
+
+    int a=0;
+    public int mouse_count(){ 
+        a++;
+        return a;
+    }
     /**
      * @param args the command line arguments
      */
@@ -122,6 +214,6 @@ public class delete_venue extends javax.swing.JFrame {
     private javax.swing.JButton delete_button;
     private javax.swing.JLabel heading;
     private javax.swing.JLabel heading1;
-    private javax.swing.JScrollBar jScrollBar1;
+    private javax.swing.JComboBox<String> venue_box;
     // End of variables declaration//GEN-END:variables
 }
