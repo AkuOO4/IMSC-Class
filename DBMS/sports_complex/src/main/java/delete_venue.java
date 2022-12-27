@@ -98,31 +98,27 @@ public class delete_venue extends javax.swing.JFrame {
 
     private void delete_buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_delete_buttonActionPerformed
         // TODO add your handling code here:
-        
-        
-    }//GEN-LAST:event_delete_buttonActionPerformed
-
-    private void venue_boxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_venue_boxActionPerformed
-        // TODO add your handling code here:
     try{
       Class.forName("com.mysql.cj.jdbc.Driver");
       Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3307/sports_complex","root","root");
       Statement stmt=conn.createStatement();
       
-      String q1="DELETE FROM table_name WHERE condition;";
-      String q2="select count(id) from sports_items where quantity!=0";
-      //System.out.print(q1);
-      //ResultSet rs2=stmt.executeQuery(q2);
-      //String[] data;
-      ResultSet rs=stmt.executeQuery(q1);
+      String venue=venue_box.getSelectedItem().toString();
       
+      String q1="DELETE FROM venues WHERE venue='"+venue+"';";
+      String q2="select venue from venues";
+      //System.out.print(q1);
+      
+      //String[] data;
+      stmt.executeUpdate(q1);
+      ResultSet rs2=stmt.executeQuery(q2);
       //System.out.println("123");
       venue_box.removeAllItems();
       //removeAllItems();
       //int count=0;
-      while (rs.next()){
-        System.out.print(rs.getString(1)+" \n");
-        String data=rs.getString(1);
+      while (rs2.next()){
+        System.out.print(rs2.getString(1)+" \n");
+        String data=rs2.getString(1);
         venue_box.addItem(data);
         //count++;
       }
@@ -131,7 +127,14 @@ public class delete_venue extends javax.swing.JFrame {
     catch (Exception ex) {
       System.out.print("\n--ERROR--\n");
       System.out.print(ex.getMessage());
-    }
+    }   
+        
+    }//GEN-LAST:event_delete_buttonActionPerformed
+
+    private void venue_boxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_venue_boxActionPerformed
+        // TODO add your handling code here:
+        
+    
     }//GEN-LAST:event_venue_boxActionPerformed
 
     private void formMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseMoved
@@ -143,8 +146,8 @@ public class delete_venue extends javax.swing.JFrame {
       Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3307/sports_complex","root","root");
       Statement stmt=conn.createStatement();
       
-      String q1="select item from sports_items";
-      String q2="select count(id) from sports_items where quantity!=0";
+      String q1="select venue from venues";
+      //String q2="select count(id) from sports_items where quantity!=0";
       //System.out.print(q1);
       //ResultSet rs2=stmt.executeQuery(q2);
       //String[] data;

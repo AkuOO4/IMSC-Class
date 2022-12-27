@@ -31,6 +31,7 @@ public class start_page extends javax.swing.JFrame {
         costomer_page_button = new javax.swing.JButton();
         admin_page_button = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        admin_page_button1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -66,6 +67,13 @@ public class start_page extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Arial Black", 0, 36)); // NOI18N
         jLabel2.setText("LOGIN PAGE");
 
+        admin_page_button1.setText("SIGN UP");
+        admin_page_button1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                admin_page_button1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -87,10 +95,14 @@ public class start_page extends javax.swing.JFrame {
                                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(costomer_page_button)
-                                .addGap(53, 53, 53)
+                                .addGap(69, 69, 69)
                                 .addComponent(admin_page_button, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 85, Short.MAX_VALUE)))
+                        .addGap(0, 69, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(admin_page_button1, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(188, 188, 188))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -107,7 +119,9 @@ public class start_page extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(costomer_page_button)
                     .addComponent(admin_page_button))
-                .addContainerGap(93, Short.MAX_VALUE))
+                .addGap(29, 29, 29)
+                .addComponent(admin_page_button1)
+                .addContainerGap(41, Short.MAX_VALUE))
         );
 
         pack();
@@ -131,6 +145,10 @@ public class start_page extends javax.swing.JFrame {
     private void admin_page_buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_admin_page_buttonActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_admin_page_buttonActionPerformed
+
+    private void admin_page_button1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_admin_page_button1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_admin_page_button1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -169,6 +187,7 @@ public class start_page extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton admin_page_button;
+    private javax.swing.JButton admin_page_button1;
     private javax.swing.JButton costomer_page_button;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
