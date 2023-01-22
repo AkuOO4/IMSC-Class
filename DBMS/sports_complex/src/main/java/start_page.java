@@ -1,3 +1,10 @@
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import javax.swing.JOptionPane;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -25,7 +32,7 @@ public class start_page extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        user_name = new javax.swing.JTextField();
+        username = new javax.swing.JTextField();
         password = new javax.swing.JPasswordField();
         jLabel1 = new javax.swing.JLabel();
         costomer_page_button = new javax.swing.JButton();
@@ -35,10 +42,10 @@ public class start_page extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        user_name.setText("USERNAME");
-        user_name.addActionListener(new java.awt.event.ActionListener() {
+        username.setText("USERNAME");
+        username.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                user_nameActionPerformed(evt);
+                usernameActionPerformed(evt);
             }
         });
 
@@ -90,7 +97,7 @@ public class start_page extends javax.swing.JFrame {
                                 .addGap(85, 85, 85)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addComponent(user_name)
+                                        .addComponent(username)
                                         .addComponent(password, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
@@ -110,7 +117,7 @@ public class start_page extends javax.swing.JFrame {
                 .addGap(61, 61, 61)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(53, 53, 53)
-                .addComponent(user_name, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(username, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(23, 23, 23)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -127,9 +134,9 @@ public class start_page extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void user_nameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_user_nameActionPerformed
+    private void usernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usernameActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_user_nameActionPerformed
+    }//GEN-LAST:event_usernameActionPerformed
 
     private void passwordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passwordActionPerformed
         // TODO add your handling code here:
@@ -137,9 +144,60 @@ public class start_page extends javax.swing.JFrame {
 
     private void costomer_page_buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_costomer_page_buttonActionPerformed
         // TODO add your handling code here:
+        String Username= username.getText();
+        String Password= password.getText();
+    
+    
+        
+    try{
+      Class.forName("com.mysql.cj.jdbc.Driver");
+      Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3307/sports_complex","root","root");
+      Statement stmt=conn.createStatement();
+      
+      String q1="select password from costumer_details where name='"+Username+"'";
+      ResultSet rs1=stmt.executeQuery(q1);
+      rs1.next();
+      String confirm_password=rs1.getString(1);
+      
+      if (password.equals(confirm_password)){
+      
+      
+      
+      
+     // String q2="insert into costumer_details values ('"+id+"','"+Username+"','"+password+"');";
+      //System.out.print(q1);
+      
+      //String[] data;
+     // stmt.executeUpdate(q2);
+      //JOptionPane.showMessageDialog(null, "Account succesfully created","succes", JOptionPane.OK_OPTION);
+      
+      start_page jf1 =new start_page();
+      jf1.show();
+      dispose();
+      }
+          else{
+        JOptionPane.showMessageDialog(null, "Password and confirmation password are different.","ERROR", JOptionPane.ERROR_MESSAGE);
+    }
         costumer_page_1 jf1= new costumer_page_1();
         jf1.show();
         dispose();
+      
+      //ResultSet rs2=stmt.executeUpdate(q2);
+      //System.out.println("123");
+      
+      //removeAllItems();
+      //int count=0;
+     
+      //return data;
+    } 
+    catch (Exception ex) {
+      System.out.print("\n--ERROR--\n");
+      System.out.print(ex.getMessage());
+      JOptionPane.showMessageDialog(null, ex.getMessage(),"ERROR", JOptionPane.ERROR_MESSAGE);
+
+    }
+        
+
     }//GEN-LAST:event_costomer_page_buttonActionPerformed
 
     private void admin_page_buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_admin_page_buttonActionPerformed
@@ -192,6 +250,6 @@ public class start_page extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPasswordField password;
-    private javax.swing.JTextField user_name;
+    private javax.swing.JTextField username;
     // End of variables declaration//GEN-END:variables
 }

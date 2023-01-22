@@ -1,0 +1,1483 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.19)  20 JAN 2023 09:18
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28>
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)
+) (C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen147
+))
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen148
+)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count197
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count198
+\leftroot@=\count199
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count266
+\DOTSCASE@=\count267
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen149
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count268
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count269
+\dotsspace@=\muskip16
+\c@parentequation=\count270
+\dspbrk@lvl=\count271
+\tag@help=\toks19
+\row@=\count272
+\column@=\count273
+\maxfields@=\count274
+\andhelp@=\toks20
+\eqnshift@=\dimen150
+\alignsep@=\dimen151
+\tagshift@=\dimen152
+\tagwidth@=\dimen153
+\totwidth@=\dimen154
+\lineht@=\dimen155
+\@envbody=\toks21
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks23
+)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip52
+\enit@outerparindent=\dimen156
+\enit@toks=\toks24
+\enit@inbox=\box53
+\enit@count@id=\count275
+\enitdp@description=\count276
+) (C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen157
+\captionmargin=\dimen158
+\caption@leftmargin=\dimen159
+\caption@rightmargin=\dimen160
+\caption@width=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count277
+\c@continuedfloat=\count278
+)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count279
+\c@subtable=\count280
+) (C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+f
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen165
+\stockheight=\dimen166
+)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen167
+\ar@mcellbox=\box54
+\extrarowheight=\dimen168
+\NC@list=\toks25
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box55
+)
+\everycr=\toks26
+\minrowclearance=\skip55
+\rownum=\count281
+)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip56
+\f@nch@O@elh=\skip57
+\f@nch@O@erh=\skip58
+\f@nch@O@olh=\skip59
+\f@nch@O@orh=\skip60
+\f@nch@O@elf=\skip61
+\f@nch@O@erf=\skip62
+\f@nch@O@olf=\skip63
+\f@nch@O@orf=\skip64
+) (C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.st
+y
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip65
+\cftbeforetoctitleskip=\skip66
+\cftaftertoctitleskip=\skip67
+\cftbeforepartskip=\skip68
+\cftpartnumwidth=\skip69
+\cftpartindent=\skip70
+\cftbeforechapskip=\skip71
+\cftchapindent=\skip72
+\cftchapnumwidth=\skip73
+\cftbeforesecskip=\skip74
+\cftsecindent=\skip75
+\cftsecnumwidth=\skip76
+\cftbeforesubsecskip=\skip77
+\cftsubsecindent=\skip78
+\cftsubsecnumwidth=\skip79
+\cftbeforesubsubsecskip=\skip80
+\cftsubsubsecindent=\skip81
+\cftsubsubsecnumwidth=\skip82
+\cftbeforeparaskip=\skip83
+\cftparaindent=\skip84
+\cftparanumwidth=\skip85
+\cftbeforesubparaskip=\skip86
+\cftsubparaindent=\skip87
+\cftsubparanumwidth=\skip88
+\cftbeforeloftitleskip=\skip89
+\cftafterloftitleskip=\skip90
+\cftbeforefigskip=\skip91
+\cftfigindent=\skip92
+\cftfignumwidth=\skip93
+\c@lofdepth=\count282
+\c@lotdepth=\count283
+\cftbeforelottitleskip=\skip94
+\cftafterlottitleskip=\skip95
+\cftbeforetabskip=\skip96
+\cfttabindent=\skip97
+\cfttabnumwidth=\skip98
+) (C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
+y
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen169
+\Gin@req@width=\dimen170
+)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
+ftex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count284
+\l__pdf_internal_box=\box56
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(79.49744pt, 438.513pt, 79.49744pt)
+* v-part:(T,H,B)=(72.26999pt, 687.4988pt, 85.27806pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=438.513pt
+* \textheight=687.4988pt
+* \oddsidemargin=7.22745pt
+* \evensidemargin=7.22745pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+kii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count285
+\scratchdimen=\dimen171
+\scratchbox=\box57
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen172
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks28
+)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
+ekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
+y
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.st
+y
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+s.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
+cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+<cusat.png, id=1, 529.98pt x 302.12875pt>
+File: cusat.png Graphic file (type png)
+<use cusat.png>
+Package pdftex.def Info: cusat.png  used on input line 45.
+(pdftex.def)             Requested size: 264.98933pt x 151.064pt.
+ [1
+
+{C:/Users/Akshay/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./cusat.png
+>]
+File: cusat.png Graphic file (type png)
+<use cusat.png>
+Package pdftex.def Info: cusat.png  used on input line 78.
+(pdftex.def)             Requested size: 264.98933pt x 151.064pt.
+ [2]
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 17
+0.
+
+(C:\Users\Akshay\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[1]
+<SCHEMA.png, id=20, 695.59875pt x 580.1675pt>
+File: SCHEMA.png Graphic file (type png)
+<use SCHEMA.png>
+Package pdftex.def Info: SCHEMA.png  used on input line 189.
+(pdftex.def)             Requested size: 347.79852pt x 290.08302pt.
+File: SCHEMA.png Graphic file (type png)
+<use SCHEMA.png>
+Package pdftex.def Info: SCHEMA.png  used on input line 197.
+(pdftex.def)             Requested size: 347.79852pt x 290.08302pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[1 <./SCHEMA.png>]
+Overfull \hbox (4.13596pt too wide) in paragraph at lines 271--271
+[]\OT1/cmtt/m/n/10.95 mysql> create table DEPARTMENT(DNO varchar(20) primary ke
+y,Dname varchar(20),[] 
+ []
+
+
+Overfull \hbox (4.13596pt too wide) in paragraph at lines 271--271
+[]\OT1/cmtt/m/n/10.95 PLocation varchar(20),DNO varchar(20),constraint dno_proj
+ect foreign key(DNO)[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
+<employee.png, id=29, 538.01pt x 244.915pt>
+File: employee.png Graphic file (type png)
+<use employee.png>
+Package pdftex.def Info: employee.png  used on input line 277.
+(pdftex.def)             Requested size: 322.80849pt x 146.95012pt.
+<department.png, id=30, 574.145pt x 192.72pt>
+File: department.png Graphic file (type png)
+<use department.png>
+Package pdftex.def Info: department.png  used on input line 278.
+(pdftex.def)             Requested size: 344.48965pt x 115.63287pt.
+<PROJECT.png, id=31, 238.31892pt x 70.54929pt>
+File: PROJECT.png Graphic file (type png)
+<use PROJECT.png>
+Package pdftex.def Info: PROJECT.png  used on input line 279.
+(pdftex.def)             Requested size: 309.81454pt x 91.71404pt.
+<WORKS_ON.png, id=32, 226.27393pt x 65.38715pt>
+File: WORKS_ON.png Graphic file (type png)
+<use WORKS_ON.png>
+Package pdftex.def Info: WORKS_ON.png  used on input line 280.
+(pdftex.def)             Requested size: 294.15605pt x 85.00327pt.
+<DLOCATION.png, id=33, 230.14554pt x 49.47054pt>
+File: DLOCATION.png Graphic file (type png)
+<use DLOCATION.png>
+Package pdftex.def Info: DLOCATION.png  used on input line 281.
+(pdftex.def)             Requested size: 299.18916pt x 64.31166pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3 <./employee.png> <./department.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4 <./PROJECT.png> <./WORKS_ON.png> <./DLOCATION.png>]
+<ALTER_ADD.png, id=46, 423.72589pt x 206.05554pt>
+File: ALTER_ADD.png Graphic file (type png)
+<use ALTER_ADD.png>
+Package pdftex.def Info: ALTER_ADD.png  used on input line 306.
+(pdftex.def)             Requested size: 296.6061pt x 144.23788pt.
+<DROP.png, id=47, 431.03893pt x 31.40303pt>
+File: DROP.png Graphic file (type png)
+<use DROP.png>
+Package pdftex.def Info: DROP.png  used on input line 326.
+(pdftex.def)             Requested size: 344.8316pt x 25.12244pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5 <./ALTER_ADD.png> <./DROP.png>]
+<TRUNCATE.png, id=53, 266.28053pt x 56.3534pt>
+File: TRUNCATE.png Graphic file (type png)
+<use TRUNCATE.png>
+Package pdftex.def Info: TRUNCATE.png  used on input line 348.
+(pdftex.def)             Requested size: 292.90948pt x 61.9889pt.
+File: department.png Graphic file (type png)
+<use department.png>
+Package pdftex.def Info: department.png  used on input line 366.
+(pdftex.def)             Requested size: 344.48965pt x 115.63287pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6 <./TRUNCATE.png>]
+Overfull \hbox (9.88464pt too wide) in paragraph at lines 470--470
+[]\OT1/cmtt/m/n/10.95 mysql> insert into EMPLOYEE values ("e1002","Ria","Chopra
+","Chennai","Female",[] 
+ []
+
+
+Overfull \hbox (15.63333pt too wide) in paragraph at lines 470--470
+[]\OT1/cmtt/m/n/10.95 mysql> insert into EMPLOYEE values ("e1003","Hira","Moham
+med","Kochi","Female",[] 
+ []
+
+
+Overfull \hbox (9.88464pt too wide) in paragraph at lines 470--470
+[]\OT1/cmtt/m/n/10.95 mysql> insert into DEPARTMENT values("d01","Marketing","m
+1001","2022-07-04");;[] 
+ []
+
+
+Overfull \hbox (15.63333pt too wide) in paragraph at lines 470--470
+[]\OT1/cmtt/m/n/10.95 mysql> insert into DEPARTMENT values("d04","Human Resourc
+es","m1004","2022-02-1[] 
+ []
+
+
+Overfull \hbox (9.88464pt too wide) in paragraph at lines 470--470
+[]\OT1/cmtt/m/n/10.95 mysql> insert into DEPARTMENT values("d05","Management","
+m1005","2021-12-17");[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+Overfull \hbox (4.13596pt too wide) in paragraph at lines 470--470
+[]\OT1/cmtt/m/n/10.95 mysql> insert into PROJECT values("p1001","Project Synerg
+y","Chennai","d01");[] 
+ []
+
+
+Overfull \hbox (9.88464pt too wide) in paragraph at lines 470--470
+[]\OT1/cmtt/m/n/10.95 mysql> insert into PROJECT values ("p1003","Strategic Pro
+gram","Delhi","d03");[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+<EMPLOYEE2.png, id=64, 756.8275pt x 207.77625pt>
+File: EMPLOYEE2.png Graphic file (type png)
+<use EMPLOYEE2.png>
+Package pdftex.def Info: EMPLOYEE2.png  used on input line 493.
+(pdftex.def)             Requested size: 378.41283pt x 103.88786pt.
+<DEPARTMENT2.png, id=65, 456.70625pt x 203.76125pt>
+File: DEPARTMENT2.png Graphic file (type png)
+<use DEPARTMENT2.png>
+Package pdftex.def Info: DEPARTMENT2.png  used on input line 494.
+(pdftex.def)             Requested size: 365.36548pt x 163.0092pt.
+<PROJECT2.png, id=66, 444.66125pt x 208.78pt>
+File: PROJECT2.png Graphic file (type png)
+<use PROJECT2.png>
+Package pdftex.def Info: PROJECT2.png  used on input line 495.
+(pdftex.def)             Requested size: 311.26074pt x 146.14497pt.
+<WORKS_ON2.png, id=67, 274.02374pt x 203.76125pt>
+File: WORKS_ON2.png Graphic file (type png)
+<use WORKS_ON2.png>
+Package pdftex.def Info: WORKS_ON2.png  used on input line 496.
+(pdftex.def)             Requested size: 219.21928pt x 163.0092pt.
+<DLOCATION2.png, id=68, 291.0875pt x 203.76125pt>
+File: DLOCATION2.png Graphic file (type png)
+<use DLOCATION2.png>
+Package pdftex.def Info: DLOCATION2.png  used on input line 497.
+(pdftex.def)             Requested size: 232.8703pt x 163.0092pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9 <./EMPLOYEE2.png> <./DEPARTMENT2.png>]
+<UPDATE.png, id=74, 748.7975pt x 201.75375pt>
+File: UPDATE.png Graphic file (type png)
+<use UPDATE.png>
+Package pdftex.def Info: UPDATE.png  used on input line 519.
+(pdftex.def)             Requested size: 374.39783pt x 100.87662pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10 <./PROJECT2.png> <./WORKS_ON2.png> <./DLOCATION2.png>]
+<DELETE.png, id=82, 752.8125pt x 182.6825pt>
+File: DELETE.png Graphic file (type png)
+<use DELETE.png>
+Package pdftex.def Info: DELETE.png  used on input line 541.
+(pdftex.def)             Requested size: 376.40532pt x 91.34102pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11 <./UPDATE.png> <./DELETE.png>]
+<SELECT.png, id=88, 286.49893pt x 82.59428pt>
+File: SELECT.png Graphic file (type png)
+<use SELECT.png>
+Package pdftex.def Info: SELECT.png  used on input line 575.
+(pdftex.def)             Requested size: 315.14978pt x 90.85397pt.
+<REVOKE.png, id=89, 322.63393pt x 108.405pt>
+File: REVOKE.png Graphic file (type png)
+<use REVOKE.png>
+Package pdftex.def Info: REVOKE.png  used on input line 597.
+(pdftex.def)             Requested size: 354.8984pt x 119.24585pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12 <./SELECT.png> <./REVOKE.png>]
+<Q1.png, id=95, 42.58768pt x 40.43678pt>
+File: Q1.png Graphic file (type png)
+<use Q1.png>
+Package pdftex.def Info: Q1.png  used on input line 624.
+(pdftex.def)             Requested size: 51.10495pt x 48.52386pt.
+<Q2.png, id=96, 89.47714pt x 50.33089pt>
+File: Q2.png Graphic file (type png)
+<use Q2.png>
+Package pdftex.def Info: Q2.png  used on input line 639.
+(pdftex.def)             Requested size: 107.37201pt x 60.39674pt.
+<Q3.png, id=97, 54.63268pt x 29.25214pt>
+File: Q3.png Graphic file (type png)
+<use Q3.png>
+Package pdftex.def Info: Q3.png  used on input line 654.
+(pdftex.def)             Requested size: 65.55885pt x 35.10237pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13 <./Q1.png> <./Q2.png>]
+<Q4.png, id=103, 63.23625pt x 28.39178pt>
+File: Q4.png Graphic file (type png)
+<use Q4.png>
+Package pdftex.def Info: Q4.png  used on input line 669.
+(pdftex.def)             Requested size: 75.8831pt x 34.06996pt.
+<Q5.png, id=104, 123.46124pt x 37.42554pt>
+File: Q5.png Graphic file (type png)
+<use Q5.png>
+Package pdftex.def Info: Q5.png  used on input line 684.
+(pdftex.def)             Requested size: 148.15273pt x 44.9104pt.
+<Q6.png, id=105, 329.51678pt x 30.54268pt>
+File: Q6.png Graphic file (type png)
+<use Q6.png>
+Package pdftex.def Info: Q6.png  used on input line 700.
+(pdftex.def)             Requested size: 395.41815pt x 36.65102pt.
+<Q7.png, id=106, 69.68893pt x 27.53143pt>
+File: Q7.png Graphic file (type png)
+<use Q7.png>
+Package pdftex.def Info: Q7.png  used on input line 717.
+(pdftex.def)             Requested size: 104.53313pt x 41.29701pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14 <./Q3.png> <./Q4.png> <./Q5.png> <./Q6.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15 <./Q7.png>]
+<NQ1.png, id=118, 353.60678pt x 83.45464pt>
+File: NQ1.png Graphic file (type png)
+<use NQ1.png>
+Package pdftex.def Info: NQ1.png  used on input line 750.
+(pdftex.def)             Requested size: 176.80295pt x 41.7272pt.
+
+Overfull \hbox (4.13596pt too wide) in paragraph at lines 763--763
+[]\OT1/cmtt/m/n/10.95 mysql> select EMPLOYEE.Fname,PROJECT.PLocation FROM EMPLO
+YEE,WORKS_ON,PROJECT[] 
+ []
+
+<NQ2.png, id=119, 108.405pt x 63.23625pt>
+File: NQ2.png Graphic file (type png)
+<use NQ2.png>
+Package pdftex.def Info: NQ2.png  used on input line 767.
+(pdftex.def)             Requested size: 108.40472pt x 63.23608pt.
+
+Overfull \hbox (21.38202pt too wide) in paragraph at lines 777--777
+[]\OT1/cmtt/m/n/10.95 mysql> select * from EMPLOYEE left join WORKS_ON on EMPLO
+YEE.SSN = WORKS_ON.SSN;[] 
+ []
+
+<NQ3.png, id=120, 450.82715pt x 88.61679pt>
+File: NQ3.png Graphic file (type png)
+<use NQ3.png>
+Package pdftex.def Info: NQ3.png  used on input line 782.
+(pdftex.def)             Requested size: 450.82605pt x 88.61656pt.
+
+Overfull \hbox (29.93787pt too wide) in paragraph at lines 782--783
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16 <./NQ1.png> <./NQ2.png>]
+<NQ4.png, id=127, 456.84964pt x 90.3375pt>
+File: NQ4.png Graphic file (type png)
+<use NQ4.png>
+Package pdftex.def Info: NQ4.png  used on input line 801.
+(pdftex.def)             Requested size: 456.84851pt x 90.33727pt.
+
+Overfull \hbox (35.96033pt too wide) in paragraph at lines 801--802
+[][] 
+ []
+
+<NQ5.png, id=128, 449.96678pt x 340.27126pt>
+File: NQ5.png Graphic file (type png)
+<use NQ5.png>
+Package pdftex.def Info: NQ5.png  used on input line 821.
+(pdftex.def)             Requested size: 404.96635pt x 306.24129pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17 <./NQ3.png> <./NQ4.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18 <./NQ5.png>]
+<VIEW1.png, id=138, 367.3725pt x 92.48839pt>
+File: VIEW1.png Graphic file (type png)
+<use VIEW1.png>
+Package pdftex.def Info: VIEW1.png  used on input line 852.
+(pdftex.def)             Requested size: 330.63217pt x 83.23875pt.
+<VIEW2.png, id=139, 102.3825pt x 57.64394pt>
+File: VIEW2.png Graphic file (type png)
+<use VIEW2.png>
+Package pdftex.def Info: VIEW2.png  used on input line 871.
+(pdftex.def)             Requested size: 102.38225pt x 57.64378pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19 <./VIEW1.png> <./VIEW2.png>]
+<VIEW3.png, id=145, 356.61804pt x 81.73393pt>
+File: VIEW3.png Graphic file (type png)
+<use VIEW3.png>
+Package pdftex.def Info: VIEW3.png  used on input line 891.
+(pdftex.def)             Requested size: 356.61716pt x 81.73372pt.
+<VIEW4.png, id=146, 361.35pt x 26.24089pt>
+File: VIEW4.png Graphic file (type png)
+<use VIEW4.png>
+Package pdftex.def Info: VIEW4.png  used on input line 909.
+(pdftex.def)             Requested size: 289.0804pt x 20.9927pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20 <./VIEW3.png> <./VIEW4.png>]
+<FACTORIAL.png, id=152, 225.84375pt x 146.5475pt>
+File: FACTORIAL.png Graphic file (type png)
+<use FACTORIAL.png>
+Package pdftex.def Info: FACTORIAL.png  used on input line 968.
+(pdftex.def)             Requested size: 158.08954pt x 102.58253pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22 <./FACTORIAL.png>]
+<MAXIMUM.png, id=161, 225.84375pt x 146.5475pt>
+File: MAXIMUM.png Graphic file (type png)
+<use MAXIMUM.png>
+Package pdftex.def Info: MAXIMUM.png  used on input line 1017.
+(pdftex.def)             Requested size: 158.08954pt x 102.58253pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23 <./MAXIMUM.png>]
+<PRIME.png, id=166, 380.42125pt x 160.6pt>
+File: PRIME.png Graphic file (type png)
+<use PRIME.png>
+Package pdftex.def Info: PRIME.png  used on input line 1076.
+(pdftex.def)             Requested size: 266.29305pt x 112.41922pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24 <./PRIME.png>]
+<NUMBERS.png, id=171, 372.39125pt x 249.93375pt>
+File: NUMBERS.png Graphic file (type png)
+<use NUMBERS.png>
+Package pdftex.def Info: NUMBERS.png  used on input line 1120.
+(pdftex.def)             Requested size: 260.67209pt x 174.95242pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25 <./NUMBERS.png>]
+Overfull \hbox (4.13596pt too wide) in paragraph at lines 1161--1161
+[] \OT1/cmtt/m/n/10.95 12  update Employee set Salary = Salary + Salary * incr_
+sal where current of[] 
+ []
+
+<CURSOR1.png, id=176, 483.09053pt x 327.36589pt>
+File: CURSOR1.png Graphic file (type png)
+<use CURSOR1.png>
+Package pdftex.def Info: CURSOR1.png  used on input line 1166.
+(pdftex.def)             Requested size: 386.47295pt x 261.89305pt.
+<CURSOR2.1.png, id=177, 331.66768pt x 233.15678pt>
+File: CURSOR2.1.png Graphic file (type png)
+<use CURSOR2.1.png>
+Package pdftex.def Info: CURSOR2.1.png  used on input line 1167.
+(pdftex.def)             Requested size: 265.33449pt x 186.52567pt.
+<CURSOR2.2.png, id=178, 456.84964pt x 347.58429pt>
+File: CURSOR2.2.png Graphic file (type png)
+<use CURSOR2.2.png>
+Package pdftex.def Info: CURSOR2.2.png  used on input line 1168.
+(pdftex.def)             Requested size: 365.4802pt x 278.0678pt.
+<CURSOR2.3.png, id=179, 471.9059pt x 325.64517pt>
+File: CURSOR2.3.png Graphic file (type png)
+<use CURSOR2.3.png>
+Package pdftex.def Info: CURSOR2.3.png  used on input line 1169.
+(pdftex.def)             Requested size: 377.52524pt x 260.51648pt.
+<CURSOR2.4.png, id=180, 480.07928pt x 311.44928pt>
+File: CURSOR2.4.png Graphic file (type png)
+<use CURSOR2.4.png>
+Package pdftex.def Info: CURSOR2.4.png  used on input line 1170.
+(pdftex.def)             Requested size: 384.06395pt x 249.15974pt.
+<CURSOR2.5.png, id=181, 497.28642pt x 314.46054pt>
+File: CURSOR2.5.png Graphic file (type png)
+<use CURSOR2.5.png>
+Package pdftex.def Info: CURSOR2.5.png  used on input line 1171.
+(pdftex.def)             Requested size: 397.82967pt x 251.56876pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27 <./CURSOR1.png> <./CURSOR2.1.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28 <./CURSOR2.2.png> <./CURSOR2.3.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29 <./CURSOR2.4.png> <./CURSOR2.5.png>]
+<CURSOR3.png, id=201, 377.6968pt x 102.81268pt>
+File: CURSOR3.png Graphic file (type png)
+<use CURSOR3.png>
+Package pdftex.def Info: CURSOR3.png  used on input line 1203.
+(pdftex.def)             Requested size: 377.69586pt x 102.81241pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30 <./CURSOR3.png>]
+<trigger1.jpg, id=206, 260.975pt x 264.99pt>
+File: trigger1.jpg Graphic file (type jpg)
+<use trigger1.jpg>
+Package pdftex.def Info: trigger1.jpg  used on input line 1251.
+(pdftex.def)             Requested size: 260.97437pt x 264.98935pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32 <./trigger1.jpg>]
+<trigger2.jpg, id=213, 366.36874pt x 209.28188pt>
+File: trigger2.jpg Graphic file (type jpg)
+<use trigger2.jpg>
+Package pdftex.def Info: trigger2.jpg  used on input line 1286.
+(pdftex.def)             Requested size: 366.36784pt x 209.28134pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33 <./trigger2.jpg>]
+<tcl1.png, id=217, 1321.18594pt x 530.73282pt>
+File: tcl1.png Graphic file (type png)
+<use tcl1.png>
+Package pdftex.def Info: tcl1.png  used on input line 1327.
+(pdftex.def)             Requested size: 396.35884pt x 159.22107pt.
+<tcl2.png, id=218, 1321.18594pt x 411.03563pt>
+File: tcl2.png Graphic file (type png)
+<use tcl2.png>
+Package pdftex.def Info: tcl2.png  used on input line 1328.
+(pdftex.def)             Requested size: 396.35884pt x 123.31163pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34 <./tcl1.png> <./tcl2.png>]
+<tcl3.png, id=225, 1320.43312pt x 367.3725pt>
+File: tcl3.png Graphic file (type png)
+<use tcl3.png>
+Package pdftex.def Info: tcl3.png  used on input line 1346.
+(pdftex.def)             Requested size: 396.133pt x 110.21259pt.
+<tcl4.png, id=226, 983.17313pt x 137.01187pt>
+File: tcl4.png Graphic file (type png)
+<use tcl4.png>
+Package pdftex.def Info: tcl4.png  used on input line 1365.
+(pdftex.def)             Requested size: 393.26228pt x 54.80377pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35 <./tcl3.png> <./tcl4.png>]
+<M1c.png, id=232, 796.47563pt x 137.7647pt>
+File: M1c.png Graphic file (type png)
+<use M1c.png>
+Package pdftex.def Info: M1c.png  used on input line 1393.
+(pdftex.def)             Requested size: 369.56738pt x 63.92326pt.
+<create&getM.png, id=233, 728.7225pt x 101.62968pt>
+File: create&getM.png Graphic file (type png)
+<use create&getM.png>
+Package pdftex.def Info: create&getM.png  used on input line 1409.
+(pdftex.def)             Requested size: 364.36035pt x 50.81471pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36 <./M1c.png> <./create&getM.png>]
+<M3.png, id=239, 727.96968pt x 101.62968pt>
+File: M3.png Graphic file (type png)
+<use M3.png>
+Package pdftex.def Info: M3.png  used on input line 1425.
+(pdftex.def)             Requested size: 363.98395pt x 50.81471pt.
+
+Overfull \hbox (32.8794pt too wide) in paragraph at lines 1453--1453
+[]\OT1/cmtt/m/n/10.95 "Salary" : 120000},{"Empno" : "E1003" , "Empname" : "Sara
+" , "Salary" : 170000}]);[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37 <./M3.png>]
+<M4.2.png, id=244, 903.375pt x 522.45187pt>
+File: M4.2.png Graphic file (type png)
+<use M4.2.png>
+Package pdftex.def Info: M4.2.png  used on input line 1458.
+(pdftex.def)             Requested size: 451.6864pt x 261.2253pt.
+
+Overfull \hbox (13.1734pt too wide) in paragraph at lines 1458--1459
+[] 
+ []
+
+File: M4.2.png Graphic file (type png)
+<use M4.2.png>
+Package pdftex.def Info: M4.2.png  used on input line 1472.
+(pdftex.def)             Requested size: 451.6864pt x 261.2253pt.
+
+Overfull \hbox (13.1734pt too wide) in paragraph at lines 1472--1473
+[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38 <./M4.2.png>]
+<M6.png, id=249, 1215.79219pt x 548.80031pt>
+File: M6.png Graphic file (type png)
+<use M6.png>
+Package pdftex.def Info: M6.png  used on input line 1498.
+(pdftex.def)             Requested size: 486.30826pt x 219.51622pt.
+
+Overfull \hbox (47.79526pt too wide) in paragraph at lines 1498--1499
+[] 
+ []
+
+<M8.png, id=250, 1215.79219pt x 398.99063pt>
+File: M8.png Graphic file (type png)
+<use M8.png>
+Package pdftex.def Info: M8.png  used on input line 1513.
+(pdftex.def)             Requested size: 486.30826pt x 159.59341pt.
+
+Overfull \hbox (47.79526pt too wide) in paragraph at lines 1513--1514
+[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39 <./M6.png>]
+<M9copy.png, id=255, 1250.42157pt x 123.46124pt>
+File: M9copy.png Graphic file (type png)
+<use M9copy.png>
+Package pdftex.def Info: M9copy.png  used on input line 1527.
+(pdftex.def)             Requested size: 482.66353pt x 47.6561pt.
+
+Overfull \hbox (44.15053pt too wide) in paragraph at lines 1527--1528
+[] 
+ []
+
+<M10.png, id=256, 903.375pt x 91.84312pt>
+File: M10.png Graphic file (type png)
+<use M10.png>
+Package pdftex.def Info: M10.png  used on input line 1542.
+(pdftex.def)             Requested size: 478.78647pt x 48.6766pt.
+
+Overfull \hbox (57.89828pt too wide) in paragraph at lines 1542--1543
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40 <./M8.png> <./M9copy.png> <./M10.png>]
+<Screenshot 2022-12-15 161337.png, id=264, 1410.0178pt x 673.76718pt>
+File: Screenshot 2022-12-15 161337.png Graphic file (type png)
+<use Screenshot 2022-12-15 161337.png>
+Package pdftex.def Info: Screenshot 2022-12-15 161337.png  used on input line 1
+558.
+(pdftex.def)             Requested size: 563.99713pt x 269.50209pt.
+<Screenshot 2022-12-15 161407.png, id=265, 1019.30812pt x 765.6103pt>
+File: Screenshot 2022-12-15 161407.png Graphic file (type png)
+<use Screenshot 2022-12-15 161407.png>
+Package pdftex.def Info: Screenshot 2022-12-15 161407.png  used on input line 1
+559.
+(pdftex.def)             Requested size: 407.71602pt x 306.2387pt.
+<Screenshot 2022-12-15 161435.png, id=266, 758.835pt x 570.63188pt>
+File: Screenshot 2022-12-15 161435.png Graphic file (type png)
+<use Screenshot 2022-12-15 161435.png>
+Package pdftex.def Info: Screenshot 2022-12-15 161435.png  used on input line 1
+560.
+(pdftex.def)             Requested size: 303.52863pt x 228.2487pt.
+
+Overfull \hbox (125.48413pt too wide) in paragraph at lines 1558--1561
+[]
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41 <./Screenshot 2022-12-15 161337.png> <./Screenshot 2022-12-15 161407.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42 <./Screenshot 2022-12-15 161435.png>]
+<book.png, id=276, 359.62929pt x 235.30768pt>
+File: book.png Graphic file (type png)
+<use book.png>
+Package pdftex.def Info: book.png  used on input line 1585.
+(pdftex.def)             Requested size: 359.6284pt x 235.3071pt.
+<sports.png, id=277, 369.52339pt x 279.1859pt>
+File: sports.png Graphic file (type png)
+<use sports.png>
+Package pdftex.def Info: sports.png  used on input line 1599.
+(pdftex.def)             Requested size: 258.6646pt x 195.42879pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43 <./book.png> <./sports.png>]
+<hospital.png, id=283, 297.25339pt x 166.04893pt>
+File: hospital.png Graphic file (type png)
+<use hospital.png>
+Package pdftex.def Info: hospital.png  used on input line 1610.
+(pdftex.def)             Requested size: 208.07593pt x 116.23344pt.
+<hotel.png, id=284, 473.19643pt x 252.08464pt>
+File: hotel.png Graphic file (type png)
+<use hotel.png>
+Package pdftex.def Info: hotel.png  used on input line 1622.
+(pdftex.def)             Requested size: 331.23523pt x 176.45804pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44 <./hospital.png> <./hotel.png>]
+! Missing delimiter (. inserted).
+<to be read again> 
+                   A
+l.1660 \big A
+             ctivity diagram
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+<ACTIVITY.png, id=290, 632.3625pt x 406.51875pt>
+File: ACTIVITY.png Graphic file (type png)
+<use ACTIVITY.png>
+Package pdftex.def Info: ACTIVITY.png  used on input line 1662.
+(pdftex.def)             Requested size: 316.18048pt x 203.25887pt.
+! Missing delimiter (. inserted).
+<to be read again> 
+                   E
+l.1665 \big E
+             R DIAGRAM
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+<ER.png, id=291, 642.75131pt x 317.988pt>
+File: ER.png Graphic file (type png)
+<use ER.png>
+Package pdftex.def Info: ER.png  used on input line 1667.
+(pdftex.def)             Requested size: 321.37486pt x 158.9936pt.
+! Missing delimiter (. inserted).
+<to be read again> 
+                   U
+l.1669 \big U
+             ML DIAGRAM
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+<UML.png, id=292, 316.18124pt x 225.84375pt>
+File: UML.png Graphic file (type png)
+<use UML.png>
+Package pdftex.def Info: UML.png  used on input line 1671.
+(pdftex.def)             Requested size: 316.18047pt x 225.84319pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45 <./ACTIVITY.png>]
+! Missing delimiter (. inserted).
+<to be read again> 
+                   U
+l.1674 \big U
+             I
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+<SIGNUP.png, id=299, 329.51678pt x 293.38179pt>
+File: SIGNUP.png Graphic file (type png)
+<use SIGNUP.png>
+Package pdftex.def Info: SIGNUP.png  used on input line 1676.
+(pdftex.def)             Requested size: 164.75798pt x 146.69052pt.
+<LOGIN_PAGE.png, id=300, 358.76894pt x 330.37714pt>
+File: LOGIN_PAGE.png Graphic file (type png)
+<use LOGIN_PAGE.png>
+Package pdftex.def Info: LOGIN_PAGE.png  used on input line 1677.
+(pdftex.def)             Requested size: 179.38402pt x 165.18816pt.
+<ADMIN_PAGE.png, id=301, 307.57768pt x 258.9675pt>
+File: ADMIN_PAGE.png Graphic file (type png)
+<use ADMIN_PAGE.png>
+Package pdftex.def Info: ADMIN_PAGE.png  used on input line 1678.
+(pdftex.def)             Requested size: 153.78845pt x 129.48341pt.
+<ADD_VENUES.png, id=302, 301.125pt x 254.23553pt>
+File: ADD_VENUES.png Graphic file (type png)
+<use ADD_VENUES.png>
+Package pdftex.def Info: ADD_VENUES.png  used on input line 1679.
+(pdftex.def)             Requested size: 150.56212pt x 127.11745pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46 <./ER.png> <./UML.png> <./SIGNUP.png> <./LOGIN_PAGE.png>]
+<GANTT.png, id=311, 441.7934pt x 242.19054pt>
+File: GANTT.png Graphic file (type png)
+<use GANTT.png>
+Package pdftex.def Info: GANTT.png  used on input line 1692.
+(pdftex.def)             Requested size: 441.79231pt x 242.18994pt.
+
+Overfull \hbox (3.27931pt too wide) in paragraph at lines 1691--1693
+[] 
+ []
+
+<CURRENT.png, id=312, 372.53464pt x 397.91518pt>
+File: CURRENT.png Graphic file (type png)
+<use CURRENT.png>
+Package pdftex.def Info: CURRENT.png  used on input line 1696.
+(pdftex.def)             Requested size: 186.26686pt x 198.95709pt.
+<VENUES.png, id=313, 298.54393pt x 255.95625pt>
+File: VENUES.png Graphic file (type png)
+<use VENUES.png>
+Package pdftex.def Info: VENUES.png  used on input line 1697.
+(pdftex.def)             Requested size: 149.27159pt x 127.9778pt.
+<DELETE_VENUE.png, id=314, 319.62268pt x 289.51018pt>
+File: DELETE_VENUE.png Graphic file (type png)
+<use DELETE_VENUE.png>
+Package pdftex.def Info: DELETE_VENUE.png  used on input line 1698.
+(pdftex.def)             Requested size: 159.81094pt x 144.75473pt.
+<SIGNUP_PAGE.png, id=315, 302.41554pt x 264.12964pt>
+File: SIGNUP_PAGE.png Graphic file (type png)
+<use SIGNUP_PAGE.png>
+Package pdftex.def Info: SIGNUP_PAGE.png  used on input line 1699.
+(pdftex.def)             Requested size: 151.2074pt x 132.06448pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47 <./ADMIN_PAGE.png> <./ADD_VENUES.png> <./GANTT.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48 <./CURRENT.png> <./VENUES.png> <./DELETE_VENUE.png> <./SIGNUP_PAGE.png>]
+(main.aux) ) 
+Here is how much of TeX's memory you used:
+ 6697 strings out of 475385
+ 113498 string characters out of 2776435
+ 453923 words of memory out of 3000000
+ 27917 multiletter control sequences out of 15000+600000
+ 478331 words of font info for 61 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,12n,67p,717b,415s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Akshay\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
+dpi600\tcrm1095.pk><C:/Users/Akshay/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb><C:/Users/Akshay/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Akshay/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Akshay/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Akshay/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
+/Akshay/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Users/Akshay/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mti12.pfb><C:/Users/Akshay/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb>
+Output written on main.pdf (51 pages, 5548232 bytes).
+PDF statistics:
+ 369 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 396 words of extra memory for PDF output out of 10000 (max. 10000000)
+

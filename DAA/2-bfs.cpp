@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int size =20;
+#define size 20
+//int size =20;
 
 int queue[size],visit[20],rear=-1,front=0;
 int n,s,adj[20][20],flag=0;
@@ -41,16 +42,16 @@ void bfs(int v)
        {
               visit[w]=1;
               flag=1;
-              cout<<"v%d\t"<<w;
+              cout<<"v\t"<<w;
               insertq(w);
        }
    }
 }
 
-void main()
+int main()
 {
     int v,w;
-    cout<<"Enter the no.of vertices:\n";
+    cout<<"Enter the no.of vertices: \n";
     cin>>n;
     cout<<"Enter adjacency matrix:";
     for(v=1;v<=n;v++)
@@ -60,7 +61,7 @@ void main()
     }
     cout<<"Enter the start vertex:";
     cin>>s;
-    cout<<"Reachability of vertex %d\n"<<s;
+    cout<<"Reachability of vertex\n"<<s;
     for(v=1;v<=n;v++)
             visit[v]=0;
 

@@ -50,7 +50,7 @@ int main(){
     int length;
     cout<<"Enter the length of the Array ";
     cin>>length;
-    auto start = high_resolution_clock::now();
+    
 	int array[length];
 	
 	srand((unsigned) time(0));
@@ -58,12 +58,22 @@ int main(){
     for (int i=0;i<length;i++)
         array[i]=rand()%500;
         
-    cout<<"Array is \n";    
-    printArray(array,length);  
+    //cout<<"Array is \n";    
+    //printArray(array,length);  
     cout<<endl;
+    auto start = high_resolution_clock::now();
     quickSort(array,0,length-1);
-    cout<<"\nSorted Array is\n";
-    printArray(array,length);
+    //cout<<"\nSorted Array is\n";
+   // printArray(array,length);
+    
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<microseconds>(stop - start);
+    cout << "\n\nTime taken For calculating is "<<duration.count()<<" milliseconds" << endl;
+
+    auto start = high_resolution_clock::now();
+    quickSort(array,0,length-1);
+    //cout<<"\nSorted Array is\n";
+   // printArray(array,length);
     
     auto stop = high_resolution_clock::now();
     auto duration = duration_cast<microseconds>(stop - start);
